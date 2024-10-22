@@ -1,39 +1,63 @@
 {
     "source": {
-        "id": "the-huffington-post",
-        "name": "The Huffington Post"
-    },
-    "author": "Lydia O'Connor",
-    "title": "'Blade Runner 2049' Producers Sue Elon Musk, Tesla For Copyright Infringement",
-    "description": "The company says it denied Musk's request to use imagery from its film because of his \u201cextreme political and social views.\u201d",
-    "url": "https://www.huffpost.com/entry/elon-musk-blade-runner-lawsuit_n_67169851e4b019cef4eb3d49",
-    "urlToImage": "https://img.huffingtonpost.com/asset/6716a6b11900003000ea5da5.jpeg?cache=6fapLU5Dr5&ops=1200_630",
-    "publishedAt": "2024-10-21T20:06:06Z",
-    "content": "The production company behind Blade Runner 2049 filed a lawsuit Monday against Elon Musk and Tesla, accusing them of copyright infringement while promoting a new self-driving car.\r\nIn its lawsuit, Al\u2026 [+2789 chars]"
-}{
-    "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-    },
-    "author": "Filip De Mott",
-    "title": "Famed short-seller Carson Block won't bet Tesla amid high valuation",
-    "description": "Block realized a few years ago that Tesla's capital base is simply too big and strong to wager against.",
-    "url": "https://markets.businessinsider.com/news/stocks/tesla-stock-price-short-seller-block-wont-elon-musk-valuation-2024-10?_gl&#x3D;1*1ra36zm*_ga*MTQwNDU1NzEzMS4xNjkyMjgzNDcy*_ga_E21CV80ZCZ*MTcyOTUzMzkwMS42My4xLjE3Mjk1Mzc0OTMuMTAuMC4w",
-    "urlToImage": "https://i.insider.com/671676169b3250dbbce8b8e0?width=1200&format=jpeg",
-    "publishedAt": "2024-10-21T18:25:37Z",
-    "content": "Carson Block, known for his shrewd short bets against companies, says he won't bet against Tesla.\r\nThe famed Muddy Waters investor said he came to the conclusion that shorting Tesla is a fool's erran\u2026 [+1816 chars]"
-}{
-    "source": {
-        "id": "crypto-coins-news",
-        "name": "Crypto Coins News"
+        "id": null,
+        "name": "[Removed]"
     },
     "author": null,
-    "title": "Tech Stock Roundup: UK Social Media Law Hits Stocks, Netflix 11%, and Tesla\u2019s Earnings",
-    "description": "What has moved the tech market last week? Investors evaluate the latest developments among big firms while awaiting Tesla's Q3 earnings.",
-    "url": "https://www.ccn.com/news/technology/tech-stock-roundup-uk-social-media-law-hits-stocks-netflix-11-tesla-earnings/",
-    "urlToImage": "https://www.ccn.com/wp-content/uploads/2024/10/CCN-Tech-STock-Roundup.webp",
-    "publishedAt": "2024-10-21T12:04:42Z",
-    "content": "Key Takeaways\r\n<ul><li>Social media stocks react to the U.K.\u2019s Online Safety Act.</li><li>Analysts don\u2019t seem disappointed by Meta\u2019s layoff announcement.</li><li>Netflix shares jumped 11% before the \u2026 [+6677 chars]"
+    "title": "[Removed]",
+    "description": "[Removed]",
+    "url": "https://removed.com",
+    "urlToImage": null,
+    "publishedAt": "2024-10-02T21:27:56Z",
+    "content": "[Removed]"
+}{
+    "source": {
+        "id": "wired",
+        "name": "Wired"
+    },
+    "author": "Kevin Purdy, Ars Technica",
+    "title": "I Own a Chevy Bolt, and Superchargers Are a Total Game Changer",
+    "description": "The anxiety of longer trips in my EV has eased considerably now that I can use Tesla Supercharger stations.",
+    "url": "https://www.wired.com/story/i-own-a-chevy-bolt-and-superchargers-are-a-total-game-changer/",
+    "urlToImage": "https://media.wired.com/photos/67004d2a6602ed7227d3fcae/191:100/w_1280,c_limit/Gear_Chevy_Bolt_GettyImages-1962772373.jpg",
+    "publishedAt": "2024-10-04T22:04:17Z",
+    "content": "It should not be so exciting to eat a breakfast quesadilla in your car.\r\nBut this quesadilla was from Wawa, this Wawa hosted a Tesla Supercharger, and this car was the 2023 Chevrolet Bolt EUV, hooked\u2026 [+6109 chars]"
+}{
+    "source": {
+        "id": "wired",
+        "name": "Wired"
+    },
+    "author": "Aarian Marshall",
+    "title": "Tesla Is Ready to Roll Out the Cybercab, Its Answer to Robotaxis",
+    "description": "On Thursday, Tesla will reveal its Cybercab, a self-driving robotaxi. But running an autonomous ride-hailing fleet involves much more than teaching cars to drive themselves.",
+    "url": "https://www.wired.com/story/tesla-is-ready-to-roll-out-cybercab-robotaxi/",
+    "urlToImage": "https://media.wired.com/photos/670573800d28edd6a8566d13/191:100/w_1280,c_limit/tesla-cybercab-gear-1167397052.jpg",
+    "publishedAt": "2024-10-09T12:30:00Z",
+    "content": "On Thursday evening, around 7 pm PDT, Tesla is slated to unveil the newest vehicle in its lineup: one that will be able to drive itself. A purpose-built Tesla robot taxia Cybercab, in the electric au\u2026 [+2713 chars]"
+}{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Andrew J. Hawkins",
+    "title": "Tesla Cybercab announced: Elon Musk\u2019s robotaxi is finally here",
+    "description": "Tesla CEO Elon Musk unveiled the long-awaited prototype robotaxi at an event in Los Angeles. But questions remain about the vehicle\u2019s safety.",
+    "url": "https://www.theverge.com/2024/10/10/24265530/tesla-robotaxi-elon-musk-features-range-price-release-date",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/fBs9y8RUB3-qwqpgYcORgqbrDfs=/0x0:2560x1440/1200x628/filters:focal(1280x720:1281x721)/cdn.vox-cdn.com/uploads/chorus_asset/file/25670491/videoframe_3297637.png",
+    "publishedAt": "2024-10-11T02:59:05Z",
+    "content": "Tesla Cybercab announced: Elon Musks robotaxi is finally here\r\nTesla Cybercab announced: Elon Musks robotaxi is finally here\r\n / Musk showed off a prototype of a self-driving car he calls the Cyberca\u2026 [+3285 chars]"
+}{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Andrew J. Hawkins",
+    "title": "The bill finally comes due for Elon Musk",
+    "description": "Tesla CEO Elon Musk is finally forced to stop hiding behind his bluster and show off a real autonomous vehicle. Anything less would be a disaster.",
+    "url": "https://www.theverge.com/2024/10/9/24265781/tesla-robotaxi-elon-musk-claims-safety-driverless-level-5",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/UTFYAIWx1CsXE6oKzXfSIOu2rXQ=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25663397/STKE001_STK086_Tesla_Robotaxi_D.jpg",
+    "publishedAt": "2024-10-09T14:38:07Z",
+    "content": "Image: Cath Virginia / The Verge, Turbosquid\r\n\n \n\n\n The Tesla CEO has long promised \u2014 and failed to deliver \u2014\u00a0a fully autonomous vehicle. With this week\u2019s robotaxi reveal, his time is up. For almost \u2026 [+16028 chars]"
 }{
     "source": {
         "id": null,
@@ -44,42 +68,1134 @@
     "description": "[Removed]",
     "url": "https://removed.com",
     "urlToImage": null,
-    "publishedAt": "2024-10-21T12:00:23Z",
+    "publishedAt": "2024-10-08T19:10:25Z",
     "content": "[Removed]"
 }{
     "source": {
-        "id": "next-big-future",
-        "name": "Next Big Future"
+        "id": "the-verge",
+        "name": "The Verge"
     },
-    "author": "Brian Wang",
-    "title": "Tesla Robotaxi and Robovan Insights | NextBigFuture.com",
-    "description": "Sandy Munro is a car expert whose company has taken apart thousands of cars to analyze how to improve the manufacturing and design.",
-    "url": "https://www.nextbigfuture.com/2024/10/tesla-robotaxi-and-robovan-insights.html",
-    "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2024/10/Screenshot-2024-10-10-at-8.22.33-PM-1024x561.jpg",
-    "publishedAt": "2024-10-19T00:36:52Z",
-    "content": "Sandy Munro is a car expert whose company has taken apart thousands of cars to analyze how to improve the manufacturing and design.\r\nSandy was super-impressed by the Tesla robotaxi, robovan and tesla\u2026 [+1558 chars]"
+    "author": "Wes Davis",
+    "title": "The Optimus robots at Tesla\u2019s Cybercab event were humans in disguise",
+    "description": "Tesla\u2019s Optimus robots\u2019 natural responses and smooth motions were made possible by human control behind the scenes at the Cybercab reveal event.",
+    "url": "https://www.theverge.com/2024/10/13/24269131/tesla-optimus-robots-human-controlled-cybercab-we-robot-event",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/jq-Pci6nHkoR49MEHOR_W64beuE=/0x0:2050x1360/1200x628/filters:focal(1025x680:1026x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25675214/Cowboy_Optimus.png",
+    "publishedAt": "2024-10-13T17:55:32Z",
+    "content": "An Optimus robot at the We, Robot event. | Screenshot: Tesla We, Robot livestream\r\n\n \n\n Tesla made sure its Optimus robots were a big part of its extravagant, in-person Cybercab reveal last week. The\u2026 [+2506 chars]"
 }{
     "source": {
-        "id": "next-big-future",
-        "name": "Next Big Future"
+        "id": "the-verge",
+        "name": "The Verge"
     },
-    "author": "Brian Wang",
-    "title": "Uber CEO Wants to Partner with Tesla Robotaxi | NextBigFuture.com",
-    "description": "Many people believe that Tesla robotaxi will not happen for years. However, the CEO of Uber Dara Khosrowshahi says Uber would love to partner with Tesla on",
-    "url": "https://www.nextbigfuture.com/2024/10/uber-ceo-wants-to-partner-with-tesla-robotaxi.html",
-    "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2024/10/Screenshot-2024-10-10-at-8.02.25-PM-1024x464.jpg",
-    "publishedAt": "2024-10-15T18:14:19Z",
-    "content": "Brian Wang is a Futurist Thought Leader and a popular Science blogger with 1 million readers per month. His blog Nextbigfuture.com is ranked #1 Science News Blog. It covers many disruptive technology\u2026 [+593 chars]"
+    "author": "Wes Davis",
+    "title": "Ford tells some EV customers to stop using its Tesla Supercharger adapter",
+    "description": "Ford is notifying some EV customers that they should stop using their NACS charge adapters due to a \u201cpotential issue,\u201d and that it will send free replacements soon.",
+    "url": "https://www.theverge.com/2024/10/19/24274405/ford-ev-nacs-adapter-faulty-replacement-service-bulletin",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/SgFjINFLAC6H0V4dM8qITguaCUM=/0x0:2000x1333/1200x628/filters:focal(1000x667:1001x668)/cdn.vox-cdn.com/uploads/chorus_asset/file/25688855/Fast_Charging_Adapter__NACS__03.jpg",
+    "publishedAt": "2024-10-19T20:20:41Z",
+    "content": "Ford says some of its NACS adapters could cause issues. | Image: Ford\r\n\n \n\n Ford started offering free adapters for Tesla\u2019s Supercharger network to owners of its EVs in February, and now it\u2019s telling\u2026 [+1110 chars]"
+}{
+    "source": {
+        "id": null,
+        "name": "[Removed]"
+    },
+    "author": null,
+    "title": "[Removed]",
+    "description": "[Removed]",
+    "url": "https://removed.com",
+    "urlToImage": null,
+    "publishedAt": "2024-10-04T22:25:05Z",
+    "content": "[Removed]"
 }{
     "source": {
         "id": "ars-technica",
         "name": "Ars Technica"
     },
-    "author": "Beth Mole",
-    "title": "Lab owner pleads guilty to faking COVID test results during pandemic",
-    "description": "Ill-gotten millions bought a Bentley, Lamborghini, Tesla X, and crypto, among other things.",
-    "url": "https://arstechnica.com/science/2024/10/covid-fraudster-pleads-guilty-faces-20-years-for-role-in-83m-testing-scam/",
-    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/10/GettyImages-1288678082-760x380.jpg",
-    "publishedAt": "2024-10-01T21:13:36+00:00",
-    "content": "Enlarge/ Residents line up for COVID-19 testing on November 30, 2020 in Chicago. \r\n55\r\nThe co-owner of a Chicago-based lab has pleaded guilty for his role in a COVID testing scam that raked in millio\u2026 [+2038 chars]"
+    "author": "Jonathan M. Gitlin",
+    "title": "Tesla Full Self Driving requires human intervention every 13 miles",
+    "description": "It gave pedestrians room but ran red lights and crossed into oncoming traffic.",
+    "url": "https://arstechnica.com/cars/2024/09/tesla-full-self-driving-requires-human-intervention-every-13-miles/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1415090444-760x380.jpg",
+    "publishedAt": "2024-09-25T15:31:16Z",
+    "content": "Enlarge/ An independent automotive testing company has evaluated Tesla FSD, and it found some concerning results.\r\n60\r\nTesla's controversial \"Full Self Driving\" is now capable of some quite advanced \u2026 [+2398 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Grace Kay",
+    "title": "In the past week, 4 of Elon's direct reports have announced they are leaving Tesla",
+    "description": "Eight of Elon Musk's direct reports at Tesla have left over the past year.",
+    "url": "https://www.businessinsider.com/elon-musk-loses-4-top-executives-ahead-of-robotaxi-event-2024-10",
+    "urlToImage": "https://i.insider.com/6703de63198738e3a70ea0ff?width=1200&format=jpeg",
+    "publishedAt": "2024-10-08T20:59:44Z",
+    "content": "A fire broke out at Tesla's Fremont Factory Monday night.Steve Granitz/FilmMagic // Stephen Lam /Reuters\r\n<ul><li>Multiple Tesla executives announced they are leaving or have left over the past week.\u2026 [+4157 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "A Tesla fan experiences the Cybercab for the first time \u2014 it's a smooth ride but he wouldn't necessarily buy one",
+    "description": "Tesla debuted its new Cybercab, a robotaxi with no steering wheel, on Thursday.",
+    "url": "https://www.businessinsider.com/tesla-elon-musk-fan-robotaxi-event-experiences-cybercab-2024-10",
+    "urlToImage": "https://i.insider.com/6709325fa703186492812ac9?width=944&format=jpeg",
+    "publishedAt": "2024-10-12T09:47:03Z",
+    "content": "Tesla investor Matthew Donegan-Ryan in front of a Cybercab at Tesla's 'We, Robot' event.Matthew Donegan-Ryan\r\n<ul><li>Elon Musk unveiled Tesla's first robotaxi on Thursday. </li><li>Tesla fan and att\u2026 [+4851 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Theron Mohamed",
+    "title": "Elon Musk is $100 billion richer than in April thanks to Tesla's stock surge \u2014 and worth more than McDonald's or Pepsi",
+    "description": "Tesla CEO Elon Musk has staged a $100 billion comeback after a $65 billion wealth drop in the spring.",
+    "url": "https://www.businessinsider.com/elon-musk-net-worth-tesla-stock-mcdonalds-ev-wealth-billionaires-2024-9",
+    "urlToImage": "https://i.insider.com/66f5430e75c877a99b60abdb?width=1200&format=jpeg",
+    "publishedAt": "2024-09-26T12:10:02Z",
+    "content": "Tesla CEO Elon Musk has added over $100 billion to his fortune since April.Carina Johansen/AFP/Getty Images\r\n<ul><li>Elon Musk is worth more than Salesforce or Pepsi after a $100 billion wealth gain \u2026 [+2944 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "Tesla's robotaxi dreams are going to be an insurance nightmare",
+    "description": "Tesla has lots of hurdles to jump before launching driverless rides, but an overlooked barrier is car insurance.",
+    "url": "https://www.businessinsider.com/tesla-robotaxi-cybercab-insurance-costs-uber-lyft-2024-10",
+    "urlToImage": "https://i.insider.com/670962f56ac7b701e7ca83cd?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T18:23:14Z",
+    "content": "Elon Musk showed of Tesla's new Cybercab on a closed lot at Warner Bros Studios.Tesla\r\n<ul><li>Tesla faces several regulatory hurdles before launching a robotaxi service.</li><li>Insurance is already\u2026 [+3706 chars]"
+}{
+    "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+    },
+    "author": "Jennifer Ouellette",
+    "title": "These 3D-printed pipes inspired by shark intestines outperform Tesla valves",
+    "description": "Prototypes control fluid flow in a preferred direction with no need for moving parts.",
+    "url": "https://arstechnica.com/science/2024/09/these-3d-printed-pipes-inspired-by-shark-intestines-outperform-tesla-valves/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/valve2-760x380.jpg",
+    "publishedAt": "2024-09-26T17:52:05Z",
+    "content": "Enlarge/ Shark intestines are naturally occurring Tesla valves; scientists have figured out how to mimic their unique structure.\r\n6\r\nScientists at the University of Washington have re-created the dis\u2026 [+6008 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jyoti Mann",
+    "title": "Tesla faces a fresh probe from auto regulators over its Full Self-Driving software",
+    "description": "The National Highway Traffic Safety Administration announced it's probing Tesla's tech after reports of crashes where Full Self-Driving was engaged.",
+    "url": "https://www.businessinsider.com/tesla-faces-fresh-probe-from-safety-watchdog-into-fsd-tech-2024-10",
+    "urlToImage": "https://i.insider.com/67124908a0a0cc14f221f009?width=1200&format=jpeg",
+    "publishedAt": "2024-10-18T12:14:19Z",
+    "content": "Tesla faces a fresh probe from the National Highway Traffic Safety AdministrationJustin Sullivan/Getty Images\r\n<ul><li>Tesla faces a new investigation by the National Highway Traffic Safety Administr\u2026 [+2634 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Shubhangi Goel,Tom Carter",
+    "title": "Don't hold your breath waiting for a Tesla robotaxi",
+    "description": "Elon Musk revealed Tesla's robotaxi, but the Cybercab will face a number of safety and regulatory hurdles before hitting the open road.",
+    "url": "https://www.businessinsider.com/elon-musk-tesla-robotaxi-safety-regulation-2024-10",
+    "urlToImage": "https://i.insider.com/6708bdbfa7031864928119f0?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T14:25:22Z",
+    "content": "Tesla's robotaxi may take years before it hits the open road.Tesla\r\n<ul><li>Tesla's robotaxi will almost certainly face safety and regulatory questions before it comes to market.</li><li>Tesla's Auto\u2026 [+3831 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Alistair Barr",
+    "title": "Who will win the robotaxi race? Tesla, Waymo, or Uber?",
+    "description": "The winner of the autonomous ridesharing race could be the company with no driverless vehicles.",
+    "url": "https://www.businessinsider.com/robotaxi-ridesharing-tesla-waymo-uber-2024-10",
+    "urlToImage": "https://i.insider.com/6705b55ea7031864928067fa?width=1200&format=jpeg",
+    "publishedAt": "2024-10-09T09:00:02Z",
+    "content": "Dara Khosrowshahi, CEO of Uber, speaks at an event in London.Tim P. Whitby/Getty Images for Uber\r\nTesla's Robotaxi Day is almost here. On Thursday, Elon Musk will unveil a vision for a ridesharing se\u2026 [+6752 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Kwan Wei Kevin Tan",
+    "title": "A small robotics company says Elon Musk's 'Robovan' and 'Starship' are great names \u2014 except it got trademarks for them first",
+    "description": "Robotics company Starship Technologies filed trademarks for both \"Starship\" and \"Robovan\" before SpaceX and Tesla did, per US patent office data.",
+    "url": "https://www.businessinsider.com/startup-got-trademarks-for-robovan-and-starship-before-elon-musk-2024-10",
+    "urlToImage": "https://i.insider.com/670dea9e3f2165d716e0bfea?width=1200&format=jpeg",
+    "publishedAt": "2024-10-15T08:37:37Z",
+    "content": "Robotics company Starship Technologies filed trademarks for both \"Starship\" and \"Robovan\" before SpaceX and Tesla did respectively.Apu Gomes via Getty Images\r\n<ul><li>Starship Technologies filed trad\u2026 [+3569 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "3 of China's Tesla rivals had a record month, putting pressure on Elon Musk",
+    "description": "Chinese EV makers Zeekr, Xpeng, and Li Auto announced record deliveries for September, intensifying competition for Tesla in the crucial China market.",
+    "url": "https://www.businessinsider.com/tesla-chinese-ev-rivals-record-deliveries-pressure-on-elon-musk-2024-10",
+    "urlToImage": "https://i.insider.com/66fbc1607518aa57bc9f8ee1?width=1200&format=jpeg",
+    "publishedAt": "2024-10-01T10:04:03Z",
+    "content": "The cheapest version of Xpeng's Mona M03 is nearly half the price of Tesla's Model 3 in China.VCG/Getty Images\r\n<ul><li>Chinese Tesla rivals Zeekr, Xpeng, and Li Auto announced record monthly deliver\u2026 [+2333 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Katherine Tangalakis-Lippert",
+    "title": "Elon Musk's net worth fell $15 billion after Tesla's robotaxi event",
+    "description": "Elon Musk's net worth plummeted along with Tesla stock after the company's lackluster Robotaxi release \u2014\u00a0but he's still the world's richest man.",
+    "url": "https://www.businessinsider.com/elon-musk-net-worth-tesla-robotaxi-event-2024-10",
+    "urlToImage": "https://i.insider.com/670aeb406ac7b701e7cab6f3?width=1200&format=jpeg",
+    "publishedAt": "2024-10-13T02:16:29Z",
+    "content": "Elon Musk's net worth fell along with Tesla stock on Friday.AP Photo/Alex Brandon\r\n<ul><li>Tesla debuted its prototype Cybercab at Thursday's \"We, Robot\" event in Los Angeles.</li><li>Tesla stock fel\u2026 [+3196 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jyoti Mann",
+    "title": "Uber CEO says competing with Elon Musk is 'no easy matter' \u2014 and would love to partner with Tesla on robotaxis",
+    "description": "Uber CEO is open to a Tesla partnership and wants to get its robotaxis onto its platform after ditching its own driverless car dreams.",
+    "url": "https://www.businessinsider.com/uber-ceo-elon-musk-robotaxi-tesla-2024-10",
+    "urlToImage": "https://i.insider.com/670e4c013f2165d716e0c782?width=1200&format=jpeg",
+    "publishedAt": "2024-10-15T11:51:55Z",
+    "content": "Tesla unveiled its robotaxi in California on October 10, 2024.Getty Images\r\n<ul><li>Uber CEO Dara Khosrowshahi told the Financial Times that competing with Elon Musk is not easy.</li><li>He said he w\u2026 [+1963 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jennifer Sor",
+    "title": "Tesla is making a mistake as it tries to 'shun' EV sales in its pivot to robots and robotaxis, long-time investor Ross Gerber says",
+    "description": "Gerber has turned more bearish on Tesla and Elon Musk in the last year, whittling down his fund's position in the EV maker as he eyes strategy missteps.",
+    "url": "https://www.businessinsider.com/tesla-stock-robotaxi-cybercab-tsla-fsd-elon-musk-ross-gerber-2024-10",
+    "urlToImage": "https://i.insider.com/670d173ea703186492819478?width=1024&format=jpeg",
+    "publishedAt": "2024-10-14T14:35:37Z",
+    "content": "Tesla CEO Elon Musk unveiled the Cybercar and Cybervan last week.Richard Bord/WireImage via Getty Images; Screenshot\r\n<ul><li>Tesla is making a '\"crucial\" error in its shift to robotaxis and robots, \u2026 [+3607 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "I charged a Chevy at Tesla Superchargers for a week. It was a breeze but came with one big drawback.",
+    "description": "I charged a Chevy at Tesla Superchargers for a week, and it went pretty well \u2014\u00a0but taking up two chargers during a busy time could get awkward.",
+    "url": "https://www.businessinsider.com/tesla-supercharger-with-chevy-equinox-surprisingly-well-port-issue-spot-2024-10",
+    "urlToImage": "https://i.insider.com/6700276a198738e3a70e5c9c?width=1200&format=jpeg",
+    "publishedAt": "2024-10-05T10:58:02Z",
+    "content": "For most of the week, I was the only non-Tesla vehicle at the Supercharger locations I visitedNora Naughton/Business Insider\r\n<ul><li>GM's electric vehicles got access to Tesla Superchargers last mon\u2026 [+5445 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Peter Kafka",
+    "title": "Tesla investors don't seem to trust Elon Musk like they used to. Is that because of Twitter?",
+    "description": "Elon Musk has a long history of making big promises \u2014 and Tesla investors used to be OK with that. Has something changed?",
+    "url": "https://www.businessinsider.com/elon-musk-tesla-twitter-wall-street-disappointment-self-driving-taxi-2024-10",
+    "urlToImage": "https://i.insider.com/6709a0b06ac7b701e7cab14a?width=1200&format=jpeg",
+    "publishedAt": "2024-10-12T09:37:01Z",
+    "content": "Do Tesla investors trust Elon Musk less after his purchase of Twitter?Getty Images; Jenny Chang-Rodriguez/BI\r\n<ul><li>Elon Musk says self-driving Tesla cabs \u2014 something he's talked about for a long t\u2026 [+4115 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Beatrice Nolan",
+    "title": "OpenAI is accusing Elon Musk of harassing the startup. It's the latest escalation in a long-running feud.",
+    "description": "OpenAI has hit back at Elon Musk's lawsuit, accusing the Tesla CEO of \"trying to leverage the judicial system for an edge\" for his rival AI startup, xAI.",
+    "url": "https://www.businessinsider.com/openai-elon-musk-ai-lawsuit-sam-altman-harassing-legal-battle-2024-10",
+    "urlToImage": "https://i.insider.com/67064553a703186492807460?width=1200&format=jpeg",
+    "publishedAt": "2024-10-09T10:03:46Z",
+    "content": "Musk cofounded OpenAI in 2015 with CEO Sam Altman and nine other people in 2015. Marc Piasecki; Justin Sullivan/ Getty Images\r\n<ul><li>OpenAI has fired back at Elon Musk's latest lawsuit.</li><li>The\u2026 [+3170 chars]"
+}{
+    "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+    },
+    "author": "Jonathan M. Gitlin",
+    "title": "Tesla workers in Germany complain about home visits from their bosses",
+    "description": "The rate of sick leave reached 17 percent in August, far above industry average.",
+    "url": "https://arstechnica.com/cars/2024/09/tesla-workers-complain-about-culture-of-fear-at-german-factory/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/GettyImages-1550685993-760x380.jpg",
+    "publishedAt": "2024-09-27T16:21:32Z",
+    "content": "Enlarge/ Tesla's factory in Gruenheide, Germany.\r\n43\r\nTesla's German car factory on the outskirts of Berlin allegedly operates under a \"culture of fear,\" and its workers take sick leave at more than \u2026 [+2122 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Lauren Edmonds,Tom Carter",
+    "title": "Ex-Waymo CEO is not impressed by Tesla's Robotaxi",
+    "description": "Elon Musk unveiled a fleet of prototype Robotaxis \u2014 officially called the Cybercab \u2014 on Thursday.",
+    "url": "https://www.businessinsider.com/robotaxi-review-ex-waymo-ceo-krafcik-tesla-ceo-elon-musk-2024-10",
+    "urlToImage": "https://i.insider.com/67096fcda703186492816099?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T22:02:22Z",
+    "content": "Tesla showed prototypes of its Cybercab on Thursday. Tesla\r\n<ul><li>Tesla unveiled its driverless Robotaxi at the \"We, Robot\" event on Thursday.</li><li>Waymo's ex-CEO said Tesla isn't \"serious about\u2026 [+4289 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Lauren Edmonds,Lloyd Lee",
+    "title": "Uber CEO Dara Khosrowshahi calls Elon Musk's vision for Tesla robotaxis 'pretty compelling'",
+    "description": "Uber CEO Dara Khosrowshahi appeared on Friday's episode of the Hard Fork podcast, where he spoke about the future of the autonomous vehicle industry.",
+    "url": "https://www.businessinsider.com/uber-ceo-calls-elon-musk-robotaxi-vision-compelling-2024-10",
+    "urlToImage": "https://i.insider.com/671524469b3250dbbce8a19c?width=1200&format=jpeg",
+    "publishedAt": "2024-10-20T22:06:51Z",
+    "content": "Uber CEO Dara Khosrowshahi discussed the future of autonomous vehicles on the Hard Fork podcast.Justin Sullivan/Getty Images\r\n<ul><li>Uber CEO Dara Khosrowshahi appeared on Friday's episode of the Ha\u2026 [+3627 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "Tesla Cybertruck: What to know about the truck's price, specs, range, and customer reactions",
+    "description": "The Cybertruck is the latest addition to Tesla's electric lineup. Here's everything we know about its price, specs, range, and more.",
+    "url": "https://www.businessinsider.com/cybertruck",
+    "urlToImage": "https://i.insider.com/669ebaed2d66759f66fd13ce?width=1200&format=jpeg",
+    "publishedAt": "2024-10-08T19:31:20Z",
+    "content": "The Cybertruck is Tesla's new electric pickup truck available for order. Graham Rapier/Business Insider\r\n<ul><li>The Cybertruck is the newest addition to Tesla's electric lineup.</li><li>You can orde\u2026 [+6017 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Ana Altchek",
+    "title": "Tesla's Robotaxi is set to bring new competition to Uber and Lyft",
+    "description": "Analysts see Tesla's entry into ride-hailing as a possible long-term threat to Uber and Lyft. But it could also be an opportunity to partner.",
+    "url": "https://www.businessinsider.com/tesla-robotaxi-analyst-predictions-uber-lyft-waymo-competition-2024-10",
+    "urlToImage": "https://i.insider.com/6706b2fea703186492809278?width=1200&format=jpeg",
+    "publishedAt": "2024-10-10T11:58:34Z",
+    "content": "Tesla might become a third player in the ride-hailing business, which could threaten Uber and Lyft's dominance. Justin Sullivan/Getty\r\n<ul><li>Tesla is expected to unveil a new service at its Robotax\u2026 [+5336 chars]"
+}{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Umar Shakir",
+    "title": "GM\u2019s PowerBank home battery is now available",
+    "description": "GM Energy\u2019s PowerBank home battery system is now available in a system bundle or as an add-on. The full kit costs $12,700.",
+    "url": "https://www.theverge.com/2024/10/10/24266440/gm-home-battery-powerbank-launch",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/4H6TJWOOl5iNsNirPd30TlqAkZI=/0x0:5000x3333/1200x628/filters:focal(2500x1667:2501x1668)/cdn.vox-cdn.com/uploads/chorus_asset/file/25667450/GM_Energy_HomeSystem_Family_01_1x1_Website.jpg",
+    "publishedAt": "2024-10-10T13:00:00Z",
+    "content": "GMs PowerBank home battery is now available\r\nGMs PowerBank home battery is now available\r\n / The stationary battery pack can be added to existing GM Energy vehicle-to-home power systems.\r\nByUmar Shak\u2026 [+1803 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Hasan Chowdhury",
+    "title": "Elon Musk is ready to make his biggest pitch yet that Tesla is more than just a car company",
+    "description": "Elon Musk is set to unveil a new chapter in Tesla's history at Robotaxi Day as he attempts to pitch the company as one focused on more than just EVs.",
+    "url": "https://www.businessinsider.com/elon-musk-robotaxi-day-tesla-robotics-ai-2024-10",
+    "urlToImage": "https://i.insider.com/64f2ee8b7819260019107093?width=1200&format=jpeg",
+    "publishedAt": "2024-10-07T16:35:55Z",
+    "content": "Elon Musk is expected to use Robotaxi Day to unveil Tesla's progress on driverless cars and robotics.PATRICK PLEUL/POOL/AFP via Getty Images\r\n<ul><li>Elon Musk has a big task this week: convincing in\u2026 [+6297 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Polly Thompson",
+    "title": "Elon Musk hits the campaign trail in a key swing state after donating $75 million to a pro-Trump super PAC",
+    "description": "Elon Musk is giving a series of events in Pennsylvania this week. The Tesla and SpaceX CEO has donated more than $75 million to a pro-Trump super PAC.",
+    "url": "https://www.businessinsider.com/elon-musk-campaign-trail-pennsylvania-donald-trump-key-swing-state-2024-10",
+    "urlToImage": "https://i.insider.com/670f96686ac7b701e7cbf3ad?width=1200&format=jpeg",
+    "publishedAt": "2024-10-16T13:22:18Z",
+    "content": "Elon Musk has given nearly $75 million to his pro-Trump super PAC. JIM WATSON/AFP via Getty Images\r\n<ul><li>Elon Musk said he's headed to Pennsylvania to give a series of talks as the 2024 election n\u2026 [+2445 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Kwan Wei Kevin Tan",
+    "title": "What we know about Tesla's new Robovan so far",
+    "description": "\"What happens if you need a vehicle that's bigger than a Model Y?\" Elon Musk said before unveiling Tesla's new Robovan on Thursday.",
+    "url": "https://www.businessinsider.com/what-we-know-about-teslas-new-robovan-so-far-2024-10",
+    "urlToImage": "https://i.insider.com/6708a17b6ac7b701e7ca511c?width=1032&format=jpeg",
+    "publishedAt": "2024-10-11T06:23:58Z",
+    "content": "\"What happens if you need a vehicle that's bigger than a Model Y?\" Elon Musk said before unveiling Tesla's new Robovan on Thursday.Screenshot\r\n<ul><li>Tesla is going into the van business with its Ro\u2026 [+3094 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "I saw the Tesla Cybertruck for the first time. It blew my tiny European mind.",
+    "description": "The automaker put its divisive electric pickup on display at the Paris Motor Show this week.",
+    "url": "https://www.businessinsider.com/elon-musk-tesla-cybertruck-too-big-for-europe-review-photos-2024-10",
+    "urlToImage": "https://i.insider.com/670fd23d3f2165d716e1c35c?width=1200&format=jpeg",
+    "publishedAt": "2024-10-19T09:22:01Z",
+    "content": "The Tesla Cybertruck went on display at the company's booth at the Paris Motor Show. Business Insider\r\n<ul><li>Tesla's Cybertruck was released a year ago, but there's still no sign of it coming to Eu\u2026 [+4199 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "Another blow for electric vehicle drive as battery startup Northvolt lays off 1,600 workers",
+    "description": "Swedish battery maker Northvolt said on Monday it was cutting a fifth of its workforce and scaling back expansion plans in response to \"headwinds.\"",
+    "url": "https://www.businessinsider.com/northvolt-european-battery-startup-cutting-jobs-sweden-ev-tesla-2024-9",
+    "urlToImage": "https://i.insider.com/66f18858ce3009a0fac86faa?width=1200&format=jpeg",
+    "publishedAt": "2024-09-23T15:28:17Z",
+    "content": "Peter Carlsson is the cofounder and CEO of battery startup Northvolt. Northvolt\r\n<ul><li>European battery firm Northvolt said on Monday it would lay off 1,600 workers.</li><li>The startup, founded by\u2026 [+1797 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "Optimus robots danced on a lit-up stage and served drinks at Tesla's robotaxi event",
+    "description": "Tesla's humanoid robot Optimus took a starring role at the company's Hollywood robotaxi event.",
+    "url": "https://www.businessinsider.com/elon-musk-tesla-robotaxi-event-optimus-robot-serves-drinks-dances-2024-10",
+    "urlToImage": "https://i.insider.com/6708fe72a703186492811e17?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T10:37:57Z",
+    "content": "The prototype for Optimus was first revealed in September 2022.Tesla Optimus\r\n<ul><li>Tesla's humanoid robot Optimus took a starring role at the company's Hollywood robotaxi event.</li><li>The robots\u2026 [+1791 chars]"
+}{
+    "source": {
+        "id": "usa-today",
+        "name": "USA Today"
+    },
+    "author": "Saman Shafiq, USA TODAY",
+    "title": "Video captures Tesla vehicle bursting into flames as Hurricane Helene floods Florida garage",
+    "description": "A house in Siesta Key, Florida caught fire in the aftermath of Hurricane Helene after a Tesla burst into flames in the garage.",
+    "url": "https://www.usatoday.com/story/news/nation/2024/10/01/tesla-ev-fire-flooding/75468212007/",
+    "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e9BwYHGeIEmFtxOz.ztp3Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/usa_today_news_641/b3372d990b67a21a10daf5011be53224",
+    "publishedAt": "2024-10-01T19:48:46Z",
+    "content": "A house in Florida caught fire in the aftermath of Hurricane Helene after a Tesla burst into flames in the garage purportedly due to coming into contact with saltwater, Reuters reported.\r\nNine people\u2026 [+3096 chars]"
+}{
+    "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+    },
+    "author": "Jonathan M. Gitlin",
+    "title": "EV sales remain healthy despite online doom and gloom",
+    "description": "Battery EVs are expected to account for more than 8 percent.",
+    "url": "https://arstechnica.com/cars/2024/09/ev-sales-remain-healthy-despite-online-doom-and-gloom/",
+    "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/09/ev-sales-up-760x380.jpg",
+    "publishedAt": "2024-09-26T17:40:35Z",
+    "content": "13\r\nBattery-electric vehicles accounted for 8 percent of new vehicle sales in June and July of this year and should be above 8 percent for September, according to estimates from S&amp;P Global Mobili\u2026 [+2754 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "3 questions Elon Musk will need to answer at Tesla's highly anticipated robotaxi event",
+    "description": "Investors have a lot of questions for Elon Musk heading into Tesla's robotaxi day on Oct. 10.",
+    "url": "https://www.businessinsider.com/tesla-robotaxi-release-date-elon-musk-stock-price-2024-9",
+    "urlToImage": "https://i.insider.com/66f45d1af9f6733e4bdf9519?width=1200&format=jpeg",
+    "publishedAt": "2024-09-26T09:30:02Z",
+    "content": "Tesla's robotaxi day is scheduled for October 10.SOPA Images/Getty Images\r\n<ul><li>Investor expectations are high heading into Tesla's big robotaxi reveal.</li><li>Investors are looking for details a\u2026 [+4632 chars]"
+}{
+    "source": {
+        "id": "time",
+        "name": "Time"
+    },
+    "author": "Rebecca Schneid",
+    "title": "Tesla Is Recalling More Than 27,000 Vehicles. Here\u2019s Why",
+    "description": "The recall notice specifically mentions certain Cybertrucks manufactured between Nov. 13, 2023, and Sept. 14, 2024, as those affected.",
+    "url": "https://time.com/7032304/tesla-recall-more-than-27000-vehicles-cybertrucks-reason/",
+    "urlToImage": "https://api.time.com/wp-content/uploads/2024/10/GettyImages-1183851343.jpg?quality=85&w=1024&h=603&crop=1",
+    "publishedAt": "2024-10-03T15:13:16Z",
+    "content": "Tesla has filed another recall for its Cybertrucksthe companys fifth recall for the product since it was made available to customers last year. This recall includes roughly 27,000 Cybertrucks. The re\u2026 [+2523 chars]"
+}{
+    "source": {
+        "id": "time",
+        "name": "Time"
+    },
+    "author": "TOM KRISHER and ALEX VEIGA / AP",
+    "title": "Elon Musk Unveils Tesla\u2019s \u2018Cybercab,\u2019 Plans to Bring Autonomous Driving Tech to Other Models in 2025",
+    "description": "Tesla began selling the software, which is called \u201cFull Self-Driving,\u201d nine years ago.\u00a0But there are doubts about its reliability.",
+    "url": "https://time.com/7086059/elon-musk-tesla-cybercab-autonomous-driving-tech-plans-2025/",
+    "urlToImage": "https://api.time.com/wp-content/uploads/2024/10/GettyImages-490597690.jpg?quality=85&w=1200&h=628&crop=1",
+    "publishedAt": "2024-10-11T13:50:57Z",
+    "content": "LOS ANGELES Tesla unveiled its long-awaited robotaxi at a Hollywood studio Thursday night, though fans of the electric vehicle maker will have to wait until at least 2026 before they are available.\r\n\u2026 [+5506 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jyoti Mann",
+    "title": "I'm an Uber and Lyft driver who's worried Tesla's robotaxis will take ride-hailing jobs",
+    "description": "Uber and Lyft driver Tristan Thomas said he's worried Tesla's robotaxis will threaten driver jobs, but thinks Elon Musk's 2027 timeline is unlikely.",
+    "url": "https://www.businessinsider.com/uber-driver-tesla-robotaxi-jobs-lyft-elon-musk-2024-10",
+    "urlToImage": "https://i.insider.com/670e9f5c3f2165d716e10a22?width=1200&format=jpeg",
+    "publishedAt": "2024-10-16T09:20:55Z",
+    "content": "Tristan Thomas has been an Uber and Lyft driver since 2020.Tristan Thomas\r\n<ul><li>Tesla's robotaxi, Cybercab, could eventually take jobs away from ride-hailing drivers.</li><li>Uber and Lyft driver \u2026 [+4229 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "5 of my favorite features on the Chevrolet Equinox EV that make it a perfect family SUV",
+    "description": "I drove the new Chevy Equinox EV for a few days and put it to the test with suburban activities like shopping and family hauling.",
+    "url": "https://www.businessinsider.com/chevy-equinox-ev-features-family-suv-2024-9",
+    "urlToImage": "https://i.insider.com/66f6f2f7de59ade1a3b560bc?width=1200&format=jpeg",
+    "publishedAt": "2024-09-29T09:56:02Z",
+    "content": "The Chevrolet Equinox EVNora Naughton, Business Insider\r\n<ul><li>Access to Tesla Superchargers is a game-changer.</li><li>Little details in design make the Equinox EV feel special.</li><li>Equinox EV\u2026 [+4441 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Kwan Wei Kevin Tan",
+    "title": "Elon Musk just showed the world his shiny new Robovan. There's already a Chinese vehicle with the same name.",
+    "description": "The Chinese start-up WeRide debuted their Robovan back in 2021.",
+    "url": "https://www.businessinsider.com/elon-musk-debuts-robovan-chinese-company-vehicle-with-same-name-2024-10",
+    "urlToImage": "https://i.insider.com/6708ba5c3f2165d716e017d7?width=1024&format=jpeg",
+    "publishedAt": "2024-10-11T08:40:39Z",
+    "content": "Tesla CEO Elon Musk unveiled the Robovan on Thursday.Richard Bord/WireImage via Getty Images; Screenshot\r\n<ul><li>Tesla's new Robovan has a Chinese counterpart with the same name.</li><li>WeRide unve\u2026 [+2795 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Lloyd Lee",
+    "title": "An ex-Tesla owner shares why his experience with a Rivian R1T during Hurricane Helene made him a convert",
+    "description": "Michael Cusick says his Rivian R1T not only survived Hurricane Helene but also became an essential tool to help families affected by the storm.",
+    "url": "https://www.businessinsider.com/tesla-vs-rivian-r1t-owner-hurricane-helene-survived-convert-2024-10",
+    "urlToImage": "https://i.insider.com/67084ddfa703186492811389?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T00:30:08Z",
+    "content": "Asheville, North Carolina, resident Michael Cusick told Business Insider that his Rivian R1T not only survived Hurricane Helene but also aided families affected by the storm.Michael Cusick\r\n<ul><li>N\u2026 [+6577 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Hannah Abraham",
+    "title": "Ron DeSantis said EVs could catch fire if caught up in Hurricane Helene. Experts say he's right \u2014 and that you should take these steps to protect yourself.",
+    "description": "Gov. Ron DeSantis last week urged EV owners to get their vehicles to higher ground. His warning was warranted, experts told BI.",
+    "url": "https://www.businessinsider.com/hurricane-helene-electric-vehicles-evs-owners-fire-risk-safety-tips-2024-10",
+    "urlToImage": "https://i.insider.com/66fbdfc075c877a99b621241?width=1200&format=jpeg",
+    "publishedAt": "2024-10-01T13:02:44Z",
+    "content": "A burnt-out Tesla that exploded when it took on salt water from Hurricane Helene. Florida Gov. Ron DeSantis told EV owners last week to get their vehicles to higher ground.The Washington Post/Getty I\u2026 [+4737 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Bradley Saacks",
+    "title": "Greenlight's alleged former head of macro is hoping to get at least $5 million from David Einhorn, claiming age discrimination",
+    "description": "James Fishback and his former employer Greenlight Capital have been in a legal battle since last October.",
+    "url": "https://www.businessinsider.com/greenlight-former-macro-analyst-sues-david-einhorn-2024-10",
+    "urlToImage": "https://i.insider.com/66fe86ff7de5c8fd4834e963?width=1200&format=jpeg",
+    "publishedAt": "2024-10-07T13:22:12Z",
+    "content": "Greenlight's David Einhorn is in a legal fight with a former employee.Brendan McDermid/ Reuters\r\n<ul><li>James Fishback, the former Greenlight analyst who said he was the head of macro, filed an arbi\u2026 [+5705 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "ktangalakislippert@businessinsider.com (Katherine Tangalakis-Lippert)",
+    "title": "Marc Andreessen and Ben Horowitz each donated $2.5 million to a pro-Donald Trump super PAC",
+    "description": "Marc Andreessen and Ben Horowitz each donated $2.5 million to \"Right for America,\" a pro-Donald Trump super PAC, according to FEC filings.",
+    "url": "https://www.businessinsider.com/marc-andreessen-ben-horowitz-donated-millions-pro-trump-pac-2024-10",
+    "urlToImage": "https://i.insider.com/670f0c2ca70318649282aa6a?width=1200&format=jpeg",
+    "publishedAt": "2024-10-16T02:40:02Z",
+    "content": "New federal filings reveal a pro-Trump super PAC raked in millions of dollars in donations from major businessnames, including venture capitalists Marc Andreessen and Ben Horowitz.\r\nAccording to the \u2026 [+2522 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "This Chinese EV maker is up for a battle with Elon Musk in China",
+    "description": "Xpeng co-president Brian Gu said the Guangzhou-based EV startup was keen to see how its autonomous driving technology shapes up to Elon Musk's.",
+    "url": "https://www.businessinsider.com/chinese-tesla-rival-xpeng-welcomes-competition-from-elon-musk-2024-10",
+    "urlToImage": "https://i.insider.com/670d39cd3f2165d716e09970?width=1200&format=jpeg",
+    "publishedAt": "2024-10-15T09:46:36Z",
+    "content": "Chinese EV players have been shut out of the US by tariffs. PETER PARKS/AFP via Getty Images\r\n<ul><li>Chinese EV startup Xpeng is relishing the prospect of testing its tech against Tesla.</li><li>Lik\u2026 [+3186 chars]"
+}{
+    "source": {
+        "id": "wired",
+        "name": "Wired"
+    },
+    "author": "Lily Hay Newman",
+    "title": "The US Could Finally Ban Inane Forced Password Changes",
+    "description": "Plus: The US Justice Department indicts three Iranians over Trump campaign hack, EU regulators fine Meta $100 million for a password security lapse, and the Tor Project enters a new phase.",
+    "url": "https://www.wired.com/story/nist-password-guidance-improvements/",
+    "urlToImage": "https://media.wired.com/photos/66f71df9f2d2c6098e413b67/191:100/w_1280,c_limit/Security_Roundup_Password_GettyImages.jpg",
+    "publishedAt": "2024-09-28T10:30:00Z",
+    "content": "Researchers found a vulnerability in a Kia web portal that allowed them to track millions of cars, unlock doors, honk horns, and even start engines in seconds, just by reading the car's license plate\u2026 [+4741 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Matt Turner",
+    "title": "Insider Today: Robotaxi reality check",
+    "description": "In this Sunday edition of Insider Today, we're talking about Wall Street's tepid response to Tesla's robotaxis.",
+    "url": "https://www.businessinsider.com/insider-today-elon-musk-robotaxi-tesla-wall-street-flop",
+    "urlToImage": "https://i.insider.com/67099ffe3f2165d716e0763f?width=1200&format=jpeg",
+    "publishedAt": "2024-10-13T11:01:02Z",
+    "content": "Tesla's upcoming RobotaxiTesla\r\n<ul><li>This post originally appeared in the Insider Today newsletter.</li><li>You can sign up for Business Insider's daily newsletter here.</li></ul>Welcome back to o\u2026 [+5068 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Tom Carter",
+    "title": "Elon Musk's xAI has moved into OpenAI's old HQ: report",
+    "description": "Elon Musk is racing to upstage OpenAI \u2014 and now the billionaire has reportedly moved his own AI startup into the company's old HQ.",
+    "url": "https://www.businessinsider.com/elon-musk-xai-moves-into-openai-sf-old-hq-2024-10",
+    "urlToImage": "https://i.insider.com/66fe65a55ccfc192a552cf32?width=1200&format=jpeg",
+    "publishedAt": "2024-10-03T15:13:37Z",
+    "content": "Tesla CEO Elon Musk is racing to upstage OpenAI, the startup he helped cofound in 2015. Jean Catuffe/Getty Images\r\n<ul><li>Elon Musk's xAI has moved into OpenAI's founding HQ.</li><li>Musk cofounded \u2026 [+2369 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Brent D. Griffiths",
+    "title": "Mark Cuban will campaign for Kamala Harris in 3 key swing states",
+    "description": "Billionaire Mark Cuban will appear on Kamala Harris' behalf in three swing states by the end of the week.",
+    "url": "https://www.businessinsider.com/kamala-harris-mark-cuban-campaign-swing-states-sec-chair-2024-10",
+    "urlToImage": "https://i.insider.com/67114b8bfd8ede6c99e37ae3?width=1024&format=jpeg",
+    "publishedAt": "2024-10-17T18:04:39Z",
+    "content": "Billionaire investor Mark Cuban said Vice President Kamala Harris Rick Kern via Getty Images; Saul Loeb/AFP via Getty Images\r\n<ul><li>Billionaire Mark Cuban is hitting the stump for Kamala Harris.</l\u2026 [+2170 chars]"
+}{
+    "source": {
+        "id": "time",
+        "name": "Time"
+    },
+    "author": "TOM KRISHER / AP",
+    "title": "U.S. to Probe Tesla\u2019s \u2018Full Self-Driving\u2019 System After Pedestrian Killed in Low Visibility Conditions",
+    "description": "The U.S. government's road safety agency is again investigating Tesla's\u00a0\u201cFull Self-Driving\u201d system.",
+    "url": "https://time.com/7094385/u-s-to-probe-tesla-full-self-driving-system-after-pedestrian-killed/",
+    "urlToImage": "https://api.time.com/wp-content/uploads/2024/10/GettyImages-490597690.jpg?quality=85&w=1200&h=628&crop=1",
+    "publishedAt": "2024-10-18T12:06:32Z",
+    "content": "DETROIT The U.S. government's road safety agency is again investigating Tesla's Full Self-Driving system, this time after getting reports of crashes in low-visibility conditions, including one that k\u2026 [+2190 chars]"
+}{
+    "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+    },
+    "author": "Andrew J. Hawkins",
+    "title": "Waymo is adding the Hyundai Ioniq 5 to its robotaxi fleet",
+    "description": "Waymo\u2019s next robotaxi will be the Hyundai Ioniq 5. The two companies are forming a multiyear partnership that will see the EV added to Waymo\u2019s fleet in a few years.",
+    "url": "https://www.theverge.com/2024/10/4/24261357/waymo-hyundai-ioniq-5-robotaxi-partnership",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/pIWQPlSlm-uFYRFUbNxcoMub8Bk=/0x0:7818x4398/1200x628/filters:focal(3909x2199:3910x2200)/cdn.vox-cdn.com/uploads/chorus_asset/file/25656664/WAYMO_X_HMC_100424.png",
+    "publishedAt": "2024-10-04T10:00:00Z",
+    "content": "Waymo is adding the Hyundai Ioniq 5 to its robotaxi fleet\r\nWaymo is adding the Hyundai Ioniq 5 to its robotaxi fleet\r\n / Waymo has entered into a strategic, multiyear partnership with the South Korea\u2026 [+3941 chars]"
+}{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "Tesla issues 5th recall for the new Cybertruck within a year, the latest due to rearview camera",
+    "description": "Tesla is recalling more than 27,000 Cybertrucks because the rearview camera image may not activate immediately after shifting into reverse, the fifth recall for the vehicle since it went on sale late last year",
+    "url": "https://abcnews.go.com/US/wireStory/tesla-issues-5th-recall-new-cybertruck-year-latest-114460372",
+    "urlToImage": "https://i.abcnewsfe.com/a/90d7bbbe-a55f-4897-a7e1-54922e1d810f/wirestory_32836a3471855a0a864ac1ba3d5769fc_16x9.jpg?w=1600",
+    "publishedAt": "2024-10-03T12:48:20Z",
+    "content": "Tesla is recalling more than 27,000 Cybertrucks because the rearview camera image may not activate immediately after shifting into reverse, the fifth recall for the vehicle since it went on sale late\u2026 [+1123 chars]"
+}{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "The Associated Press",
+    "title": "Tesla's global deliveries rose in Q3, first increase this year for the electric vehicle maker",
+    "description": "Low interest financing, sweet lease deals and free charging boosted Tesla\u2019s global deliveries in the third quarter, the first increase this year for the electric vehicle maker",
+    "url": "https://abcnews.go.com/Technology/wireStory/teslas-global-deliveries-rose-q3-increase-year-electric-114423096",
+    "urlToImage": "https://i.abcnewsfe.com/a/a19dc9d2-8213-4770-8039-37121cf215b3/wirestory_cae31b2299e2cc90d50d789918b0c8a4_16x9.jpg?w=1600",
+    "publishedAt": "2024-10-02T13:34:28Z",
+    "content": "Low interest financing, sweet lease deals, price cuts and free charging boosted Teslas global deliveries in the third quarter, the first increase this year for the electric vehicle maker.\r\nThe Austin\u2026 [+2248 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Catherine Boudreau",
+    "title": "Viral videos of EVs catching fire after Hurricane Helene raise safety concerns in Florida",
+    "description": "Florida officials confirmed 16 lithium-ion-battery fires related to Hurricane Helene's storm surge, six of which were in electric vehicles.",
+    "url": "https://www.businessinsider.com/florida-ev-battery-fires-safety-hurricane-helene-2024-10",
+    "urlToImage": "https://i.insider.com/66fe14e27de5c8fd4834e194?width=1200&format=jpeg",
+    "publishedAt": "2024-10-03T11:26:29Z",
+    "content": "A Tesla that caught fire during Hurricane Helene in St. Pete Beach, Florida, on September 28, 2024.Ted Richardson/The Washington Post\r\n<ul><li>Hurricane Helene caused at least 6 EV fires in Florida, \u2026 [+5892 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Nora Naughton",
+    "title": "I drove Chevy's new Equinox EV to Costco and soccer games. The SUV delivers on its family-car promise.",
+    "description": "Chevy's new Equinox EV fit seamlessly into my family's busy life, with errands, a kid's seat, commuting, and all.",
+    "url": "https://www.businessinsider.com/chevy-equinox-ev-family-suv-test-costco-kids-review-2024-1",
+    "urlToImage": "https://i.insider.com/6706c792198738e3a70f6d71?width=1200&format=jpeg",
+    "publishedAt": "2024-10-10T15:53:56Z",
+    "content": "The Chevrolet Equinox EVNora Naughton, Business Insider\r\n<ul><li>I tested the Equinox EV's capability as a family hauler.</li><li>Access to a Tesla's Supercharger stations eased my range anxiety.</li\u2026 [+4640 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "tmohamed@insider.com (Theron Mohamed)",
+    "title": "Mark Zuckerberg and Jensen Huang's combined wealth gains this year equate to the 7th richest person in the world",
+    "description": "Meta CEO Mark Zuckerberg and Nvidia CEO Jensen Huang are worth a combined $324 billion, more than Coca-Cola or Netflix's market value.",
+    "url": "https://www.businessinsider.com/meta-nvidia-stock-zuckerberg-huang-wealth-billionaires-tech-ai-2024-10",
+    "urlToImage": "https://i.insider.com/66a92013aab37011780bb982?width=1024&format=jpeg",
+    "publishedAt": "2024-10-18T12:43:02Z",
+    "content": "Mark Zuckerberg and Jensen Huang have collectively grown over $150 billion richer this year, a figure that exceeds Warren Buffett's net worth.\r\nZuckerberg, the CEO and cofounder of Meta, has added $7\u2026 [+1653 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Bryan Metzger",
+    "title": "Elon Musk may knock on doors for Trump in Pennsylvania, report says",
+    "description": "One of the richest men in the world, Elon Musk is so all-in on Trump that he might start knocking on doors in Pennsylvania himself.",
+    "url": "https://www.businessinsider.com/elon-musk-knock-doors-donald-trump-pennsylvania-2024-10",
+    "urlToImage": "https://i.insider.com/67092cd33f2165d716e02505?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T14:36:06Z",
+    "content": "Elon Musk jumps for joy at Trump's recent rally in Butler, Pennsylvania.Jim Watson/AFP via Getty Images\r\n<ul><li>Elon Musk has gone all-in for Trump, including recently speaking at a rally in Pennsyl\u2026 [+1653 chars]"
+}{
+    "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+    },
+    "author": "Fox News Staff",
+    "title": "Fox News AI Newsletter: Van Halen's unreleased music",
+    "description": "Stay up to date on the latest AI technology advancements and learn about the challenges and opportunities AI presents now and for the future.",
+    "url": "https://www.foxnews.com/tech/ai-newsletter-van-halen-unreleased-music",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/10/eddievanhalenalexvanhalen.jpg",
+    "publishedAt": "2024-10-19T12:30:14Z",
+    "content": "Welcome to Fox News Artificial Intelligence newsletter with the latest AI technology advancements.\r\nIN TODAYS NEWSLETTER:\r\n- Eddie Van Halen's brother wants AI to complete the band's unreleased music\u2026 [+1301 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "insider@insider.com (Mark Healy,Andrew Thompson)",
+    "title": "The United States of Automobiles",
+    "description": "We created an interactive road map of what America drives. Find out where your car is most popular \u2014 and which rides your neighbors love most.",
+    "url": "https://www.businessinsider.com/united-states-car-models-interactive-guide-politics-color-brand-location-2024-10",
+    "urlToImage": "https://i.insider.com/670594e4a703186492805f24?width=1200&format=jpeg",
+    "publishedAt": "2024-10-20T09:00:02Z",
+    "content": "\"More than any other country,\" Lyndon B. Johnson once said of America, \"ours is an automobile society.\" He wasn't exaggerating: Americans own more cars per capita than the citizens of any other natio\u2026 [+2306 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "insider@insider.com (Mark Healy,Andrew Thompson,Dan DeLorenzo,Kim Nguyen)",
+    "title": "From Subarus in Vermont to Dodge Rams in Montana, what we drive is shaped by where we live",
+    "description": "Take our interactive guide for a spin to see which cars your neighbors love most",
+    "url": "https://www.businessinsider.com/america-most-popular-car-models-state-city-county-geography-2024-10",
+    "urlToImage": "https://i.insider.com/670027783f2165d716de8839?width=1200&format=jpeg",
+    "publishedAt": "2024-10-20T09:00:02Z",
+    "content": "When it comes to automobiles, geography is destiny. What we drive is determined in large part by where we're driving. Sometimes the locational preferences are almost laughably stereotypical, like the\u2026 [+2372 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "fdemott@insider.com (Filip De Mott)",
+    "title": "Stock market today: Tech rally leads stocks higher as oil prices plunge and earnings kick off",
+    "description": "The market rebounded from Monday's losing session as oil prices plunged 4% and tech stocks gained ground.",
+    "url": "https://markets.businessinsider.com/news/stocks/stock-market-today-tech-rally-oil-prices-china-inflation-cpi-2024-10",
+    "urlToImage": "https://i.insider.com/67058c9f3f2165d716df5b64?width=1200&format=jpeg",
+    "publishedAt": "2024-10-08T20:12:25Z",
+    "content": "US stocks rebounded on Tuesday after Monday's losses, with momentum revived by a tech rally and falling crude prices.\r\nThe Magnificent 7 tech cohort led the market higher, with Nvidia at the forefron\u2026 [+2393 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Erin Snodgrass",
+    "title": "California's economic growth is slipping behind Texas as the Lone Star state draws corporate HQs and people",
+    "description": "Texas' economy is growing faster than California's as major companies and residents leave the coast for the Lone Star State.",
+    "url": "https://www.businessinsider.com/california-economic-growth-slipping-behind-texas-gdp-corporate-residents-2024-10",
+    "urlToImage": "https://i.insider.com/67105713a7031864928371a6?width=1200&format=jpeg",
+    "publishedAt": "2024-10-17T02:24:32Z",
+    "content": "Texas' economy is growing faster than California's.rbiedermann/Getty, Tyler Le/BI\r\n<ul><li>Texas' economy is growing faster than California's as it woos big companies and new residents.</li><li>While\u2026 [+5063 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Kwan Wei Kevin Tan",
+    "title": "Mark Zuckerberg says he wants to be remembered for this",
+    "description": "Zuckerberg told content creator Tiffany Janzen that he didn't want Meta to be remembered as an app company.",
+    "url": "https://www.businessinsider.com/mark-zuckerberg-says-he-wants-to-be-remembered-for-this-2024-10",
+    "urlToImage": "https://i.insider.com/66fb55d77518aa57bc9f88be?width=1200&format=jpeg",
+    "publishedAt": "2024-10-01T04:32:32Z",
+    "content": "\"I would guess that if you look back, you know, 20, 30 years from now, we're still going to be a technology company. Right, we're not like \u2014 we're not an app company,\" Meta founder Mark Zuckerberg to\u2026 [+4548 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jaures Yip",
+    "title": "Elon Musk might have to convince Trump not to 'stop' autonomous vehicles if he's reelected",
+    "description": "During his remarks given to the Detroit Economic Club, Trump said he found autonomous vehicles \"concerning\" and promised to \"stop\" them.",
+    "url": "https://www.businessinsider.com/elon-musk-convince-trump-not-to-stop-autonomous-vehicles-2024-10",
+    "urlToImage": "https://i.insider.com/67092797a7031864928124ad?width=1200&format=jpeg",
+    "publishedAt": "2024-10-11T18:29:27Z",
+    "content": "Elon Musk is set to join Donald Trump as he returns to Butler, Pennsylvania.Susan Walsh/AP. Evan Vucci/AP.\r\n<ul><li>Elon Musk revealed Tesla's new robotaxis hours after Trump said he would \"stop\" AVs\u2026 [+1935 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Theron Mohamed",
+    "title": "Mark Zuckerberg is now worth $200 billion, putting the Meta CEO in the world's most exclusive club",
+    "description": "Mark Zuckerberg just joined Elon Musk and Jeff Bezos in the $200 billion club after adding $72 billion to his net worth this year on Meta's stock surge.",
+    "url": "https://www.businessinsider.com/mark-zuckerberg-wealth-billionaires-net-worth-meta-ai-musk-bezos-2024-9",
+    "urlToImage": "https://i.insider.com/66f2a0c0cfb7f307e5743feb?width=1200&format=jpeg",
+    "publishedAt": "2024-09-24T11:34:30Z",
+    "content": "Mark Zuckerberg is now worth $200 billion.Chris Unger/Zuffa/Getty Images\r\n<ul><li>Mark Zuckerberg is one of only three people in the ultra-exclusive $200 billion club.</li><li>The Meta CEO has joined\u2026 [+2474 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Grace Eliza Goodwin",
+    "title": "Eric Adams is using Elon Musk's go-to lawyer",
+    "description": "NYC Mayor Eric Adams has hired high-powered attorney Alex Spiro, known for representing Elon Musk, according to reports.",
+    "url": "https://www.businessinsider.com/eric-adams-indictment-elon-musk-favorite-lawyer-alex-spiro-2024-9",
+    "urlToImage": "https://i.insider.com/66f592f2de59ade1a3b4f1ff?width=1200&format=jpeg",
+    "publishedAt": "2024-09-26T18:06:19Z",
+    "content": "NYC Mayor Eric Adams (right) has reportedly hired celebrity attorney Alex Spiro (left) to defend him against a criminal indictment.Ramsay de Give-Pool, ABC/Heidi Gutman via Getty Images\r\n<ul><li>NYC \u2026 [+2462 chars]"
+}{
+    "source": {
+        "id": "fox-news",
+        "name": "Fox News"
+    },
+    "author": "Kurt Knutsson, CyberGuy Report",
+    "title": "Elon Musk unveils Tesla's Robovan, Robotaxi, humanoid robots",
+    "description": "Tesla's \"We, Robot\" event reveals the Robovan, Robotaxi and the Optimus humanoid robot. Kurt \u201cCyberGuy\" Knutsson examines the company's latest innovations in autonomous technology.",
+    "url": "https://www.foxnews.com/tech/elon-musk-unveils-teslas-robovan-robotaxi-humanoid-robots",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/10/1-elon-musk-unveils-teslas-robovan-robotaxis-and-humanoid-robots.jpg",
+    "publishedAt": "2024-10-16T10:00:27Z",
+    "content": "Tesla's recent \"We, Robot\" event showcased a number of innovations that included the much-anticipated Robovan, the stylish Robotaxi and the humanoid Optimus robot. These autonomous vehicles and robot\u2026 [+4556 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Dan DeFrancesco",
+    "title": "Why the interest-rate cut isn't delivering the relief consumers were hoping for",
+    "description": "The 10-year Treasury yield went above 4%, leaving consumers facing high borrowing costs despite the Fed's rate cut.",
+    "url": "https://www.businessinsider.com/interest-rate-cut-no-landing-borrowing-costs-economy-relief-2024-10",
+    "urlToImage": "https://i.insider.com/67065ed7a703186492807652?width=1200&format=jpeg",
+    "publishedAt": "2024-10-09T13:47:08Z",
+    "content": "Getty Images, BI Rebecca Zisser\r\n<ul><li>This post originally appeared in the Insider Today newsletter.</li><li>You can sign up for Business Insider's daily newsletter here.</li></ul>Good morning. Mi\u2026 [+7235 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Dan DeFrancesco",
+    "title": "Florida's real-estate market is on edge amid back-to-back hurricanes",
+    "description": "Florida's real-estate market is on edge as Hurricane Milton threatens to cause more chaos in the wake of Hurricane Helene.",
+    "url": "https://www.businessinsider.com/hurricane-milton-category-four-storm-real-estate-market-insurance-damages-2024-10",
+    "urlToImage": "https://i.insider.com/67050f06198738e3a70ef53e?width=1200&format=jpeg",
+    "publishedAt": "2024-10-08T12:29:29Z",
+    "content": "Flooding from Hurricane Helene.Joe Raedle/Getty Images\r\n<ul><li>This post originally appeared in the Insider Today newsletter.</li><li>You can sign up for Business Insider's daily newsletter here.</l\u2026 [+7673 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Jyoti Mann",
+    "title": "Elon Musk seemed to diss Sam Altman over OpenAI's high-profile exits, comparing him to a notoriously cunning 'Game of Thrones' character",
+    "description": "Elon Musk made the comments just hours after Mira Murati, OpenAI's CTO and one of its most prominent public figures, announced her resignation.",
+    "url": "https://www.businessinsider.com/elon-musk-diss-sam-altman-over-openais-high-profile-exits-2024-9",
+    "urlToImage": "https://i.insider.com/65e856686080194819fcec78?width=1200&format=jpeg",
+    "publishedAt": "2024-09-26T09:25:30Z",
+    "content": "Elon Musk appeared to take aim at Sam Altman after the departure of one of OpenAI's most-prominent executives.Slaven Vlasic, Andrew Caballero-Reynolds/Getty Images\r\n<ul><li>Elon Musk compared OpenAI'\u2026 [+2842 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Sri Muppidi",
+    "title": "VCs are rushing to meet with former OpenAI CTO Mira Murati in hopes of funding a new company",
+    "description": "Venture capitalists pursue Mira Murati after her departure from OpenAI, as the company closes in on a new $6.5 billion round of funding.",
+    "url": "https://www.businessinsider.com/mira-murati-exits-openai-venture-capitalist-startup-2024-9",
+    "urlToImage": "https://i.insider.com/66fb122ef44bdb4cfa38573a?width=1200&format=jpeg",
+    "publishedAt": "2024-09-30T21:49:28Z",
+    "content": "Mira Murati shared her mother's first interaction with ChatGPT.Bloomberg/ Getty Images\r\n<ul><li>Mira Murati announced her departure from OpenAI last week.</li><li>In an X post, Murati wrote, \"I'm ste\u2026 [+3163 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Aditi Bharade",
+    "title": "Jamie Dimon says he likes Elon Musk's idea to start a DOGE, or Department of Government Efficiency",
+    "description": "Dimon said Musk's proposed department of government efficiency is a \"very good idea,\" and \"governments have to become more efficient, more competent.\"",
+    "url": "https://www.businessinsider.com/jamie-dimon-likes-musks-department-of-government-efficiency-idea-2024-9",
+    "urlToImage": "https://i.insider.com/66f3c51bce3009a0fac93f43?width=1200&format=jpeg",
+    "publishedAt": "2024-09-25T09:14:02Z",
+    "content": "Jamie Dimon and Elon Musk.Win McNamee for Getty Images and Steve Granitz for FilmMagic\r\n<ul><li>Jamie Dimon says Elon Musk's proposed department of government efficiency is a \"very good idea.\"</li><l\u2026 [+3334 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Shubhangi Goel",
+    "title": "Amazon just won a partial victory against the FTC",
+    "description": "In a sealed order, a federal judge ruled the FTC can pursue some claims against the e-commerce giant.",
+    "url": "https://www.businessinsider.com/amazon-ftc-lawsuit-partially-dismissed-antitrust-competition-vendor-fulfillment-2024-10",
+    "urlToImage": "https://i.insider.com/66fb76ebf44bdb4cfa3865fa?width=1200&format=jpeg",
+    "publishedAt": "2024-10-01T04:51:35Z",
+    "content": "Amazon won a partial dismissal of a Federal Trade Commission antitrust lawsuit.NurPhoto\r\n<ul><li>Amazon won partial dismissal of an FTC lawsuit alleging illegal monopoly practices.</li><li>The FTC ac\u2026 [+3159 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Aditi Bharade",
+    "title": "Elon Musk burned $10 million to help Ron DeSantis and has spent years backing Republican causes: reports",
+    "description": "He has poured millions in donations into conservative groups since 2022, according to new reports.",
+    "url": "https://www.businessinsider.com/musk-donated-million-ron-desantis-changed-tack-bet-on-trump-2024-10",
+    "urlToImage": "https://i.insider.com/66fe1d325ccfc192a552cbf1?width=1200&format=jpeg",
+    "publishedAt": "2024-10-03T06:30:29Z",
+    "content": "Ron DeSantis, Elon Musk, and Donald Trump.Paul Hennessy/SOPA Images/LightRocket via Getty Images, Jared Siskin/Patrick McMullan via Getty Images, Brandon Bell/Getty Images\r\n<ul><li>Elon Musk had fund\u2026 [+3068 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Aditi Bharade",
+    "title": "Pete Buttigieg says he had a call with Elon Musk to talk about Hurricane Helene because 'the best thing to do is just to pick up the phone'",
+    "description": "Buttigieg confirmed on MSNBC that he and Musk had a chat on the phone after a tense X exchange.",
+    "url": "https://www.businessinsider.com/pete-buttigieg-elon-musk-hurricane-helene-call-best-thing-2024-10",
+    "urlToImage": "https://i.insider.com/67034cd7198738e3a70e968d?width=1200&format=jpeg",
+    "publishedAt": "2024-10-07T08:18:23Z",
+    "content": "Pete Buttigieg says he and Elon Musk had a call where they ironed out details regarding Hurricane Helene relief efforts.Associated Press\r\n<ul><li>Pete Buttigieg says he and Elon Musk had a chat about\u2026 [+3135 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Pete Syme",
+    "title": "Billionaire Barry Diller thinks Elon Musk has a 'form of megalomania' and is backing Trump after being rejected by Biden",
+    "description": "Elon Musk has a \"weird bitterness\" about the Biden administration, Barry Diller told the \"Fire and Fury\" podcast.",
+    "url": "https://www.businessinsider.com/elon-musk-backing-donald-trump-rejected-joe-biden-barry-diller-2024-10",
+    "urlToImage": "https://i.insider.com/670d34533f2165d716e09712?width=1200&format=jpeg",
+    "publishedAt": "2024-10-14T16:32:14Z",
+    "content": "Barry Diller shared his thoughts about Elon Musk on a new podcast episode.Carlos Barria/Reuters; Kevin Mazur/Getty Images\r\n<ul><li>Barry Diller suggested Elon Musk endorsed Donald Trump due to \"rejec\u2026 [+2697 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Helen Li",
+    "title": "Elon Musk's xAI is on a hiring spree for 'AI tutors'",
+    "description": "Elon Musk's xAI recruits AI Tutors for language algorithm training amid X's user decline.",
+    "url": "https://www.businessinsider.com/elon-musk-xai-hiring-spree-ai-tutors-2024-10",
+    "urlToImage": "https://i.insider.com/670ff527a703186492831086?width=1200&format=jpeg",
+    "publishedAt": "2024-10-16T18:16:43Z",
+    "content": "Elon Musk, founder of xAI.Anadolu\r\n<ul><li>Elon Musk's AI startup xAI is hiring AI Tutors for data annotation to train language algorithms.</li><li>xAI partners closely with X, formerly known as Twit\u2026 [+3480 chars]"
+}{
+    "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+    },
+    "author": "Si\u00f4n Geschwindt",
+    "title": "Northvolt suspected of manslaughter in latest blow to flailing battery startup",
+    "description": "Swedish prosecutors are set to serve Northvolt with a suspicion of gross manslaughter notice following the death of a worker at the EV battery-maker\u2019s struggling gigafactory in the country\u2019s icy North, the Financial Times reports.\u00a0 Environmental prosecutor Ch\u2026",
+    "url": "https://thenextweb.com/news/northvolt-suspected-of-manslaughter-in-latest-blow-to-flailing-battery-startup",
+    "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw-blurple?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2024%2F09%2FNorthvolt_in-trouble.jpg&signature=c62defc711ba6df335fdb844119b2193",
+    "publishedAt": "2024-09-27T13:14:24Z",
+    "content": "Swedish prosecutors are set to serve Northvolt with a suspicion of gross manslaughter notice following the death of a worker at the EV battery-makers struggling gigafactory in the countrys icy North,\u2026 [+2945 chars]"
+}{
+    "source": {
+        "id": "al-jazeera-english",
+        "name": "Al Jazeera English"
+    },
+    "author": "Al Jazeera",
+    "title": "Tesla\u2019s robotaxi event was long on Musk promises, short on details",
+    "description": "Some Tesla investors and experts said they were hoping for more concrete details on how the company plans to transform.",
+    "url": "https://www.aljazeera.com/economy/2024/10/11/teslas-robotaxi-event-was-long-on-musk-promises-short-on-details",
+    "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2024/10/2024-10-11T035608Z_706537218_RC23IAAMVWD3_RTRMADP_3_TESLA-ROBOTAXI-1728662520.jpg?resize=1920%2C1440",
+    "publishedAt": "2024-10-11T16:43:11Z",
+    "content": "For a businessman who perpetually struggles with broken promises, Elon Musk has given himself quite a to-do list at Teslas long-awaited Hollywood unveiling of its driverless robotaxis.\r\nAfter travers\u2026 [+5111 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Kwan Wei Kevin Tan,Aditi Bharade",
+    "title": "The podcaster is the new politics power broker, and both the Harris and Trump campaigns know they have to kiss the ring",
+    "description": "Podcasts are the new battleground for politicians looking to win the hearts and minds of voters.",
+    "url": "https://www.businessinsider.com/podcaster-new-politics-power-broker-harris-and-trump-know-it-2024-10",
+    "urlToImage": "https://i.insider.com/67039cb7a7031864927fc8be?width=1200&format=jpeg",
+    "publishedAt": "2024-10-07T16:38:38Z",
+    "content": "Kamala Harris and Donald Trump are both making an effort to be on podcasts. Robert Gauthier/Los Angeles Times via Getty Images; Rebecca Noble/Getty Images\r\n<ul><li>Podcasts are the new battleground f\u2026 [+5168 chars]"
+}{
+    "source": {
+        "id": "abc-news",
+        "name": "ABC News"
+    },
+    "author": "LORNE COOK Associated Press",
+    "title": "EU countries vote to impose duties on China EVs ahead of an end-of-October deadline",
+    "description": "European Union countries have voted to impose duties on imports of electric vehicles from China, as talks continue between Brussels and Beijing to end the standoff before an end-of-October deadline",
+    "url": "https://abcnews.go.com/International/wireStory/eu-countries-vote-impose-duties-china-evs-ahead-114495223",
+    "urlToImage": "https://i.abcnewsfe.com/a/017b0dc8-20df-4d21-9eb1-74c9b0dc6b10/wirestory_1ae2ff03f316de858d077595f9cc148b_16x9.jpg?w=1600",
+    "publishedAt": "2024-10-04T13:34:15Z",
+    "content": "BRUSSELS -- European Union countries on Friday voted to impose duties on imports of electric vehicles from China, as talks continued between Brussels and Beijing to find an amicable solution to their\u2026 [+3653 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "mfox@businessinsider.com (Matthew Fox)",
+    "title": "JPMorgan just raised its price target for Tesla \u2014 but it still expects a 48% crash in the stock",
+    "description": "\"The continued softer trend now appears to position Tesla to potentially not grow full year unit volumes for the first time in its history,\" JPMorgan said.",
+    "url": "https://markets.businessinsider.com/news/stocks/tesla-stock-price-crash-prediction-jpmorgan-says-hypergrowth-story-over-2024-10",
+    "urlToImage": "https://i.insider.com/66fedc9ba7031864927f3c40?width=1200&format=jpeg",
+    "publishedAt": "2024-10-03T19:50:20Z",
+    "content": "JPMorgan raised its price target for Tesla stock but the bank still sees shares of Elon Musk's electric carmaker falling almost 50% in the coming year. \r\nTesla stock is down 7% since it reported thir\u2026 [+2847 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Perri Ormont Blumberg",
+    "title": "My dream job at Google came with a great salary and perks but a nightmare 4-hour commute. It was totally worth it.",
+    "description": "Mike Manalac left everything behind in Baltimore and moved to San Francisco to secure a job at Google. When he finally got it, it was two hours away.",
+    "url": "https://www.businessinsider.com/dream-job-google-great-perks-nightmare-commute-2024-9",
+    "urlToImage": "https://i.insider.com/66f460e70d59cc64f5b0347c?width=1200&format=jpeg",
+    "publishedAt": "2024-09-26T09:05:02Z",
+    "content": "Mike Manalac is an accounting manager at Google.Courtesy of Mike Manalac\r\n<ul><li>Mike Manalac, a CPA, left Baltimore for San Francisco to pursue a job at Google.</li><li>He faced challenges, includi\u2026 [+5706 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Morgan McFall-Johnsen",
+    "title": "Elon Musk's 'autocratic' style made SpaceX thrive \u2014 but his fixations could threaten its dominance, according to a new book",
+    "description": "SpaceX book author Eric Berger talks Elon Musk's rocket success, tough boss status, what Twitter means for Mars, and why SpaceX is like a mullet.",
+    "url": "https://www.businessinsider.com/elon-musk-spacex-autocratic-style-success-politics-harm-2024-9",
+    "urlToImage": "https://i.insider.com/66f59142f9f6733e4bdff0c5?width=1200&format=jpeg",
+    "publishedAt": "2024-09-27T16:13:52Z",
+    "content": "Marc Piasecki/Getty, Houston Chronicle/Hearst Newspapers/Getty Images, Tyler Le/BI\r\n<ul><li>\"Reentry\" is a new book about SpaceX's meteoric rise after its first rocket launch.</li><li>Its author, vet\u2026 [+6647 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Dan DeFrancesco",
+    "title": "An incoming 'M&A supercycle' wouldn't just be a win for dealmakers",
+    "description": "Goldman Sachs' earnings hint at the revival of the M&A market, which could help companies big and small.",
+    "url": "https://www.businessinsider.com/goldman-sachs-earnings-dealmaking-benefit-economy-2024-10",
+    "urlToImage": "https://i.insider.com/670fa446a70318649282b2f4?width=1000&format=jpeg",
+    "publishedAt": "2024-10-16T11:33:31Z",
+    "content": "Illustration by Budrul Chukrut/SOPA Images/LightRocket via Getty Images\r\n<ul><li>This post originally appeared in the Insider Today newsletter.</li><li>You can sign up for Business Insider's daily ne\u2026 [+7079 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Dan DeFrancesco",
+    "title": "Taylor Swift is flexing her economic muscles again with the return of her tour and a new book",
+    "description": "Taylor Swift's upcoming self-published challenges business norm. But her tour's return raises concerns about mega-events' impact on economic recovery.",
+    "url": "https://www.businessinsider.com/taylor-swift-self-publishing-eras-tour-book-disrupting-industry-again-2024-10",
+    "urlToImage": "https://i.insider.com/67123d4ea0a0cc14f221eeb9?width=1200&format=jpeg",
+    "publishedAt": "2024-10-18T13:04:14Z",
+    "content": "Taylor Swift performing on stage at Wembley Stadium for the London leg of \"The Eras Tour.\"Kate Green/Getty Images\r\n<ul><li>This post originally appeared in the Insider Today newsletter.how</li><li>Yo\u2026 [+7453 chars]"
+}{
+    "source": {
+        "id": "cnn",
+        "name": "CNN"
+    },
+    "author": "Catherine E. Shoichet",
+    "title": "Elon described past immigration status as 'gray area'...",
+    "description": "Elon described past immigration status as 'gray area'...\r\n\n \n \n \n (Second column, 10th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Musk's Midlife Crisis Over Populating Mars...\r\nTESLA bosses defend checking up on sick workers at home..",
+    "url": "https://www.cnn.com/2024/09/29/us/elon-musk-immigration-gray-area-cec/index.html",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/200513114916-01-elon-musk-unfurled-restricted.jpg?q=x_4,y_72,h_2321,w_4125,c_crop/w_800",
+    "publishedAt": "2024-09-29T11:01:37Z",
+    "content": "The worlds richest man stood steps away from the US-Mexico border, adjusting the brim of his black cowboy hat.\r\nAs an immigrant to the United States, I am extremely pro-immigrant, Elon Musk said, and\u2026 [+26023 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Emma Cosgrove",
+    "title": "The AI boom turned Nvidia into a trillion-dollar giant. Its next big bet is even more complex.",
+    "description": "Jensen Huang's vision for Nvidia includes advancing AI-driven robotics, but technical and market hurdles could impact the company's ambitious goals.",
+    "url": "https://www.businessinsider.com/jensen-huang-nvidia-robots-huamanoid-self-driving-cars-2024-9",
+    "urlToImage": "https://i.insider.com/66f6b9f6f9f6733e4be03737?width=1200&format=jpeg",
+    "publishedAt": "2024-10-01T09:00:02Z",
+    "content": "ktsimage/Getty,Justin Sullivan/Getty, Tyler Le/BI\r\n<ul><li>Nvidia's gaming past and mastering of the GPU made it well-positioned for the AI boom.</li><li>Its next market to corner is advanced robotic\u2026 [+9784 chars]"
+}{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Leon Poultney",
+    "title": "Ten months after its release, the Tesla Cybertruck is finally getting Full Self Driving capabilities",
+    "description": "Tesla has finally rolled out its Full Self-Driving functionality to Cybertruck owners, but they are still waiting for wheel covers.",
+    "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/ten-months-after-its-release-the-tesla-cybertruck-is-finally-getting-full-self-driving-capabilities",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/48vSa6KfGBuFz5dsUJUjNj-1200-80.jpg",
+    "publishedAt": "2024-09-30T10:31:38Z",
+    "content": "A select few Tesla Cybertruck owners have taken to the forums to boast about their vehicles finally gaining Full Self-Driving (FSD) capabilities \u2013 a technology that was promised alongside the massive\u2026 [+3794 chars]"
+}{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Leon Poultney",
+    "title": "Tesla's new Cybercab and futuristic 20-seat Robovan show it's lost its grip on reality",
+    "description": "Tesla unveiled its vision of an autonomous personalized mass transportation future at its We, Robot event. But it lacked the detail that many were hoping for.",
+    "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/teslas-new-cybercab-and-futuristic-20-seat-robovan-show-its-lost-its-grip-on-reality",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/JyWpqkAkTFbhsnUDWXJPUb-1200-80.jpg",
+    "publishedAt": "2024-10-11T10:03:23Z",
+    "content": "Dancing humanoid robots, a Hollywood movie set and plenty of impromptu whooping \u2013 it could only mean one thing: Elon Musk finally held the robotaxi reveal he has been promising for years.\r\nStaged in \u2026 [+5051 chars]"
+}{
+    "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+    },
+    "author": "Alex Bitter",
+    "title": "All the top OpenAI figures who have left since the 2023 attempt to oust CEO Sam Altman",
+    "description": "From Ilya Sutskever to Mira Murati, OpenAI has seen top talent depart the company over the last 10 months.",
+    "url": "https://www.businessinsider.com/openai-leaders-who-left-since-2023-sam-altman-leadership-struggle-2024-9",
+    "urlToImage": "https://i.insider.com/66f57e6ade59ade1a3b4cf3f?width=1200&format=jpeg",
+    "publishedAt": "2024-09-27T10:07:02Z",
+    "content": "Mira Murati became one of the latest OpenAI leaders to leave the company on Wednesday.OpenAI\r\n<ul><li>OpenAI has lost a slew of key leaders since last year's effort to push out CEO Sam Altman.</li><l\u2026 [+7908 chars]"
+}{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "lance.ulanoff@futurenet.com (Lance Ulanoff)",
+    "title": "Cybertruck's latest recall reminds us that Tesla is no longer the keeper of our all-electric dreams",
+    "description": "The Cybertruck looks more and more like an experiment and that's not helping Tesla's position in the competitive EV world.",
+    "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/cybertrucks-latest-recall-reminds-us-how-far-tesla-has-fallen-cyberturcks-latest-recall-reminds-us-that-tesla-is-no-longer-the-keeper-our-all-electric-dreams",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/9UKCLndB6qkT6jaQaXtBHP-1200-80.jpg",
+    "publishedAt": "2024-10-03T20:00:00Z",
+    "content": "Tesla's bizarre-looking Cybertruck has suffered through yet another recall. It's a sign that not only is the truck a bit like an experiment on wheels, but that Tesla is increasingly no longer the sta\u2026 [+5242 chars]"
+}{
+    "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+    },
+    "author": "Leon Poultney",
+    "title": "Tesla\u2019s Full Self-Driving update promises smoother lane changes and more decisive action, as it speeds towards a driverless future",
+    "description": "The latest Tesla Full Self-Driving update relies on AI to make faster decisions on the highway, but only a select few Cybertruck owners will benefit from it for now.",
+    "url": "https://www.techradar.com/vehicle-tech/hybrid-electric-vehicles/teslas-full-self-driving-update-promises-smoother-lane-changes-and-more-decisive-action-as-it-speeds-towards-a-driverless-future",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/b9xtUhkEp4BCEbvV5Rr2r-1200-80.jpg",
+    "publishedAt": "2024-10-01T13:59:11Z",
+    "content": "We reported recently that the Tesla Cybertruck has finally received the Full Self-Driving (FSD) capabilities that it was promised from launch, with early access testers and a handful of VIP customers\u2026 [+3847 chars]"
+}{
+    "source": {
+        "id": "next-big-future",
+        "name": "Next Big Future"
+    },
+    "author": "Brian Wang",
+    "title": "Tesla Robotaxi Day is Thursday. What Happens to Tesla After?",
+    "description": "What will happen after Tesla Robotaxi Day? This Thursday, Tesla will reveal robotaxi vehicles and robotaxi plans. Tesla technology has greatly improved over the last three years but this has not moved the stock in a major way. Warren Redlich and Brian Wang di\u2026",
+    "url": "https://www.nextbigfuture.com/2024/10/tesla-robotaxi-day-is-thursday-what-happens-to-tesla-after.html",
+    "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2024/10/Screenshot-2024-10-07-at-11.34.40-AM-1024x567.jpg",
+    "publishedAt": "2024-10-07T18:35:37Z",
+    "content": "Brian Wang is a Futurist Thought Leader and a popular Science blogger with 1 million readers per month. His blog Nextbigfuture.com is ranked #1 Science News Blog. It covers many disruptive technology\u2026 [+593 chars]"
 }

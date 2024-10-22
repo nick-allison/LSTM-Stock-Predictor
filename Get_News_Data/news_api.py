@@ -4,9 +4,6 @@ import json
 #API Key
 api_key_ = 'b6b911e095964c6597c8689407f7cebb'
 
-stock_name = 'tesla'
-outfile = open(stock_name + ".json", 'w')
-
 #NewsAPIClient object (used for queries)
 newsapi = NewsApiClient(api_key=api_key_)
 
@@ -29,24 +26,37 @@ for i in sources:
         source_str += ','
 
 #Sample query
-top_headlines = newsapi.get_top_headlines(q=stock_name,
-                                          sources= source_str,
+#top_headlines = newsapi.get_top_headlines(q=stock_name,
+                                          #sources= source_str,
                                           #category='business',
-                                          language='en',
+                                          #language='en',
                                           #country='us'
-                                          )
+                                         # )
 
 
 #Samply query
-all_articles = newsapi.get_everything(q=stock_name,
+#all_articles = newsapi.get_everything(q=stock_name,
+                                      #sources=source_str,
+                                      #from_param='2024-09-22',
+                                      #to='2024-10-20',
+                                      #language='en',
+                                      #sort_by='relevancy',
+                                      #page=2)
+
+#to be called by other files to get article data
+def get_articles(stock, from_date, to_date, page, of = None):
+    all_articles = newsapi.get_everything(q=stock,
                                       sources=source_str,
-                                      from_param='2024-09-22',
-                                      to='2024-09-28',
+                                      from_param= from_date,
+                                      to=to_date,
                                       language='en',
                                       sort_by='relevancy',
-                                      page=2)
+                                      page=page)
+    if of == None:
+        of = open(stock + ".json", 'w')
+    for i in all_articles['articles']:
+        of.write(json.dumps(i, indent=4))
+    of.close()
 
-for i in top_headlines['articles']:
-    outfile.write(json.dumps(i, indent=4))
+get_articles('tesla', '2024-09-23', '2024-10-20', 1)
 
-outfile.close()
