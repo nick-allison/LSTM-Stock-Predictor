@@ -1,0 +1,6 @@
+newsapi
+json
+yfinance
+vaderSentiment
+datetime
+time

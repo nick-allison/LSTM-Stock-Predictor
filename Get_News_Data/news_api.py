@@ -1,5 +1,8 @@
 from newsapi import NewsApiClient
 import json
+import time
+
+import cleaner
 
 #API Key
 api_key_ = 'b6b911e095964c6597c8689407f7cebb'
@@ -43,8 +46,9 @@ for i in sources:
                                       #sort_by='relevancy',
                                       #page=2)
 
-#to be called by other files to get article data
-def get_articles(stock, from_date, to_date, page, of = None):
+
+#of is the open file: gets 1 page of results
+def get_articles(stock, stock_ticker, from_date, to_date, page, of = None):
     all_articles = newsapi.get_everything(q=stock,
                                       sources=source_str,
                                       from_param= from_date,
@@ -55,8 +59,48 @@ def get_articles(stock, from_date, to_date, page, of = None):
     if of == None:
         of = open(stock + ".json", 'w')
     for i in all_articles['articles']:
-        of.write(json.dumps(i, indent=4))
+        if i['url'] != 'https://removed.com':
+            of.write(json.dumps(cleaner.clean(i, stock, stock_ticker), indent=4))
     of.close()
 
-get_articles('tesla', '2024-09-23', '2024-10-20', 1)
+#of is the name of the file to write to.  Tries to get every page, 
+# but may only get several(free plan restrictions)
+def get_all_articles(stock, stock_ticker, from_date, to_date, of = None):
+    if of == None:
+        outfile = open(stock + ".json", 'w')
+    else:
+        outfile = open(of, 'w')
+    page = 1
+    #api call
+    all_articles = newsapi.get_everything(q=stock,
+                                      sources=source_str,
+                                      from_param= from_date,
+                                      to=to_date,
+                                      language='en',
+                                      sort_by='relevancy',
+                                      page=page)
+    while all_articles != None:
+        for i in all_articles['articles']: #for each article the api returns
+            if i['url'] != 'https://removed.com': #avoids empty entry
+                    outfile.write(json.dumps(cleaner.clean(i, stock, stock_ticker), indent=4)) #runs clean function to get important info before writing to file
+        page = page + 1
+        try:
+            #api call
+            all_articles = newsapi.get_everything(q=stock,
+                                      sources=source_str,
+                                      from_param= from_date,
+                                      to=to_date,
+                                      language='en',
+                                      sort_by='relevancy',
+                                      page=page)
+        except:
+            print("Error trying to pull page " + str(page))
+            page = page - 1
+            # when the api throws an error for too many requests in a short time,
+            # this attempts to bypass this by waiting 2 seconds and 
+            # then trying to get the same page value that failed
+            time.sleep(2)
+    outfile.close()
+
+
 
