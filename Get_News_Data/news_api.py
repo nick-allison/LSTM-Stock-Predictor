@@ -2,7 +2,7 @@ from newsapi import NewsApiClient
 import json
 import time
 
-import cleaner
+from . import cleaner
 
 #API Key
 api_key_ = 'b6b911e095964c6597c8689407f7cebb'

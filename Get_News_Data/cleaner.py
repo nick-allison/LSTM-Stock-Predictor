@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-import sentiment_analysis
+from . import sentiment_analysis
 
 #timestamp string to unix time
 def to_unix(str):

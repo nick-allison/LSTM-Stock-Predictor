@@ -1,7 +1,8 @@
 from get_news_data import news_api
+from get_news_data import cleaner
 
 #example usage(as many pages of API output as possible to output file)
-news_api.get_all_articles('tesla', 'TSLA', '2024-09-23', '2024-10-20')
+##################news_api.get_all_articles('tesla', 'TSLA', '2024-09-23', '2024-10-20')
 #stock: stock name
 #stock_ticker: stock ticker
 #from_date: articles on or after, in form YYYY-MM-DD
@@ -9,7 +10,7 @@ news_api.get_all_articles('tesla', 'TSLA', '2024-09-23', '2024-10-20')
 #of, optional, the name of the file to output to.  Default is <stock>.json
 
 #example usage(page 1 of API output to output file)
-news_api.get_articles('tesla', 'TSLA', '2024-09-23', '2024-10-20', 1)
+news_api.get_articles('tesla', 'TSLA', '2024-09-23', '2024-10-23', 1, of='tesla1.json')
 #stock: stock name
 #stock_ticker: stock ticker
 #from_date: articles on or after, in form YYYY-MM-DD
