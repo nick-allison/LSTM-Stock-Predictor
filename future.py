@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Fetching data
-ticker_symbol = input("Enter the ticker symbol(ex:APPL): ")
+ticker_symbol = input("Enter the ticker symbol(ex:AAPL): ")
 data = yf.download(ticker_symbol, start='2020-01-01', end=datetime.today())  # Adjust the end date as needed
 
 # Use only the 'Close' price for prediction
