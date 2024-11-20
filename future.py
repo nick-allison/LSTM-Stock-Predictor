@@ -25,85 +25,56 @@
 ######################################################################################################################################
 
 import numpy as np
-import pandas as pd
-import yfinance as yf
-from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
-import matplotlib.pyplot as plt
-from datetime import datetime
 
-# Fetching data
-ticker_symbol = input("Enter the ticker symbol(ex:AAPL): ")
-data = yf.download(ticker_symbol, start='2020-01-01', end=datetime.today())  # Adjust the end date as needed
-
-# Use only the 'Close' price for prediction
-close_prices = data[['Close']]
-
-# Normalize the data
-scaler = MinMaxScaler(feature_range=(0, 1))
-scaled_data = scaler.fit_transform(close_prices)
-
-# Create a full dataset for training
-x_full, y_full = [], []
-
-#
-for i in range(60, len(scaled_data)):
-    x_full.append(scaled_data[i-60:i, 0])
-    y_full.append(scaled_data[i, 0])
+def train_and_predict_lstm(scaled_data, future_days, scaler):
+    """
+    Train an LSTM model on scaled data and predict future prices.
     
-x_full, y_full = np.array(x_full), np.array(y_full)
+    Args:
+        scaled_data (numpy.ndarray): Scaled historical stock prices.
+        future_days (int): Number of future days to predict.
+        scaler (MinMaxScaler): Scaler object used to inverse transform the predictions.
+    
+    Returns:
+        numpy.ndarray: The predicted prices for the future days.
+    """
+    # Prepare the training data
+    x_full, y_full = [], []
+    for i in range(60, len(scaled_data)):
+        x_full.append(scaled_data[i - 60:i, 0])
+        y_full.append(scaled_data[i, 0])
 
-# Reshape the data into the shape accepted by the LSTM
-x_full = np.reshape(x_full, (x_full.shape[0], x_full.shape[1], 1))
+    x_full, y_full = np.array(x_full), np.array(y_full)
+    x_full = np.reshape(x_full, (x_full.shape[0], x_full.shape[1], 1))
 
-# Build the LSTM network model
-model = Sequential([
-    LSTM(units=50, return_sequences=True, input_shape=(x_full.shape[1], 1)),
-    Dropout(0.2),
-    LSTM(units=50, return_sequences=False),
-    Dropout(0.2),
-    Dense(units=25),
-    Dense(units=1)
-])
+    # Build the LSTM network model
+    model = Sequential([
+        LSTM(units=50, return_sequences=True, input_shape=(x_full.shape[1], 1)),
+        Dropout(0.2),
+        LSTM(units=50, return_sequences=False),
+        Dropout(0.2),
+        Dense(units=25),
+        Dense(units=1)
+    ])
 
-# Compile the model
-model.compile(optimizer='adam', loss='mean_squared_error')
+    # Compile and fit the model
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    model.fit(x_full, y_full, batch_size=1, epochs=1)
 
-# Train the model
-model.fit(x_full, y_full, batch_size=1, epochs=1)
+    # Predict future prices
+    input_seq = scaled_data[-60:].reshape(1, -1)
+    input_seq = np.reshape(input_seq, (1, 60, 1))
+    predicted_prices = []
 
-# Number of days to predict into the future
-future_days = 30
+    for _ in range(future_days):
+        predicted_price = model.predict(input_seq)
+        predicted_prices.append(predicted_price[0, 0])
+        input_seq = np.append(input_seq[:, 1:, :], predicted_price.reshape(1, 1, 1), axis=1)
 
-# Prepare the last 60 days as the initial input sequence
-input_seq = scaled_data[-60:].reshape(1, -1)
-input_seq = np.reshape(input_seq, (1, 60, 1))
+    # Inverse transform to get actual price predictions
+    predicted_prices = np.array(predicted_prices).reshape(-1, 1)
+    predicted_prices = scaler.inverse_transform(predicted_prices)
 
-predicted_prices = []
-
-# Predict future prices
-for _ in range(future_days):
-    predicted_price = model.predict(input_seq)
-    predicted_prices.append(predicted_price[0, 0])
-    predicted_price = np.reshape(predicted_price, (1, 1, 1))  # Reshape predicted_price
-    input_seq = np.append(input_seq[:, 1:, :], predicted_price, axis=1)  # Append reshaped predicted_price
-
-# Inverse transform to get actual price predictions
-predicted_prices = np.array(predicted_prices).reshape(-1, 1)
-predicted_prices = scaler.inverse_transform(predicted_prices)
-
-# Generate future dates for plotting
-last_date = data.index[-1]
-future_dates = pd.date_range(start=last_date, periods=future_days)  # Adjusted to match the number of predicted prices
-
-# Visualize the predictions
-plt.figure(figsize=(10, 6))
-plt.plot(data.index, close_prices, label='Historical Daily Close Price')
-plt.plot(future_dates, predicted_prices, label='Predicted Daily Close Price')
-plt.title(f'Future Price Prediction for {ticker_symbol}')
-plt.xlabel('Date')
-plt.ylabel('Price')
-plt.legend()
-plt.xticks(rotation=45)
-plt.show()
+    return predicted_prices

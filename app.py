@@ -4,6 +4,7 @@ import yfinance as yf
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+from future import train_and_predict_lstm
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
@@ -72,7 +73,7 @@ elif page == "Stock Data Retrieval":
         else:
             st.warning("Please enter a valid stock ticker symbol.")
 
-# Stock Price Prediction Page
+# Stock Prediction Page
 elif page == "Stock Prediction":
     st.header("Predict Stock Prices")
     ticker_symbol = st.text_input("Enter the Stock Ticker for Prediction (e.g., MSFT)")
@@ -83,62 +84,31 @@ elif page == "Stock Prediction":
             # Fetch data using yfinance
             data = yf.download(ticker_symbol, start='2020-01-01', end=datetime.today())
             close_prices = data[['Close']]
-            
+
             # Normalize the data
             scaler = MinMaxScaler(feature_range=(0, 1))
             scaled_data = scaler.fit_transform(close_prices)
 
-            # Prepare training data
-            x_full, y_full = [], []
-            for i in range(60, len(scaled_data)):
-                x_full.append(scaled_data[i-60:i, 0])
-                y_full.append(scaled_data[i, 0])
-            x_full, y_full = np.array(x_full), np.array(y_full)
+            # Use the train_and_predict_lstm function from future.py
+            try:
+                predicted_prices = train_and_predict_lstm(scaled_data, future_days, scaler)
 
-            # Reshape the data for LSTM
-            x_full = np.reshape(x_full, (x_full.shape[0], x_full.shape[1], 1))
+                # Generate future dates for plotting
+                last_date = data.index[-1]
+                future_dates = pd.date_range(start=last_date + pd.Timedelta(days=1), periods=future_days)
 
-            # Build and train the LSTM model
-            model = Sequential([
-                LSTM(units=50, return_sequences=True, input_shape=(x_full.shape[1], 1)),
-                Dropout(0.2),
-                LSTM(units=50, return_sequences=False),
-                Dropout(0.2),
-                Dense(units=25),
-                Dense(units=1)
-            ])
+                # Plot predictions
+                plt.figure(figsize=(10, 6))
+                plt.plot(data.index, close_prices, label='Historical Daily Close Price')
+                plt.plot(future_dates, predicted_prices, label='Predicted Daily Close Price', linestyle='--')
+                plt.title(f'Future Price Prediction for {ticker_symbol}')
+                plt.xlabel('Date')
+                plt.ylabel('Price')
+                plt.legend()
+                st.pyplot(plt)
 
-            model.compile(optimizer='adam', loss='mean_squared_error')
-            model.fit(x_full, y_full, batch_size=1, epochs=1)
-
-            # Predict future prices
-            input_seq = scaled_data[-60:].reshape(1, -1)
-            input_seq = np.reshape(input_seq, (1, 60, 1))
-            predicted_prices = []
-
-            for _ in range(future_days):
-                predicted_price = model.predict(input_seq)
-                predicted_prices.append(predicted_price[0, 0])
-                input_seq = np.append(input_seq[:, 1:, :], predicted_price.reshape(1, 1, 1), axis=1)
-
-            # Inverse transform to get actual price predictions
-            predicted_prices = np.array(predicted_prices).reshape(-1, 1)
-            predicted_prices = scaler.inverse_transform(predicted_prices)
-
-            # Generate future dates for plotting
-            last_date = data.index[-1]
-            future_dates = pd.date_range(start=last_date + pd.Timedelta(days=1), periods=future_days)
-
-            # Plot predictions
-            plt.figure(figsize=(10, 6))
-            plt.plot(data.index, close_prices, label='Historical Daily Close Price')
-            plt.plot(future_dates, predicted_prices, label='Predicted Daily Close Price', linestyle='--')
-            plt.title(f'Future Price Prediction for {ticker_symbol}')
-            plt.xlabel('Date')
-            plt.ylabel('Price')
-            plt.legend()
-            st.pyplot(plt)
-
-            st.success("Prediction completed successfully!")
+                st.success("Prediction completed successfully!")
+            except Exception as e:
+                st.error(f"Prediction failed: {e}")
         else:
             st.warning("Please enter a stock ticker symbol.")
