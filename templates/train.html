@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Train the Model</h2>
+<form method="post" enctype="multipart/form-data" onsubmit="showLoader()">
+    <div class="form-group">
+        <label for="json_files">Upload JSON Data Files</label>
+        <input type="file" class="form-control-file" id="json_files" name="json_files" multiple required>
+    </div>
+    <button type="submit" class="btn btn-primary">Start Training</button>
+</form>
+
+<!-- Loader -->
+<div id="loader" style="display:none; margin-top:20px;">
+    <p>Training in progress. This may take several minutes...</p>
+    <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+
+<script>
+function showLoader() {
+    document.getElementById('loader').style.display = 'block';
+}
+</script>
+{% endblock %}

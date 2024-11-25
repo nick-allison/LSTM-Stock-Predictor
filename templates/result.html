@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ title }}</h2>
+<p>{{ message }}</p>
+{% if results %}
+    <ul>
+        <li>Mean Squared Error (MSE): {{ results.mse }}</li>
+        <li>Root Mean Squared Error (RMSE): {{ results.rmse }}</li>
+        <li>Mean Absolute Error (MAE): {{ results.mae }}</li>
+        <li>Direction Accuracy: {{ (results.direction_accuracy * 100) | round(2) }}%</li>
+        <li>Predicted Closing Price for {{ results.next_day }}: ${{ results.predicted_price | round(2) }}</li>
+    </ul>
+{% endif %}
+{% if image_path %}
+    <img src="{{ url_for('static', filename=image_path) }}" alt="Result Plot" class="img-fluid">
+{% endif %}
+{% endblock %}

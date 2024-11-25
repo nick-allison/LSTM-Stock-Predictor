@@ -29,4 +29,4 @@ from get_news_data import cleaner
 #all of the ones that end in _neg, _neu, _pos, _compound are different
 #sentiment analysis result fields.
 
-news_api.get_all_articles('Dell', 'DELL', '2024-11-01', '2024-11-19')
+news_api.get_all_articles('Apple', 'AAPL', '2024-11-20', '2024-11-25')
