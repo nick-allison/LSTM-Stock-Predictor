@@ -70,16 +70,17 @@ Please use the tools provided in 'data preprocessing helpers' to gather and proc
 <h3>Requirements</h3>
 Ensure you have the following Python packages installed:
 
-- Flask
-- numpy
-- pandas
-- yfinance
-- scikit-learn
-- tensorflow
-- along with
-- seaborn
-- newsapi-python
-- vaderSentiment
+* flask
+* numpy
+* pandas
+* yfinance
+* scikit-learn
+* tensorflow
+* keras
+* matplotlib
+* seaborn
+* newsapi-python
+* vaderSentiment
 <br><br>
 You can install these packages using the requirements.txt file
 
