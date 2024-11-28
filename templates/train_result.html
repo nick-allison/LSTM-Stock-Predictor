@@ -1,12 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>{{ title }}</h2>
-<p>Model training is complete. Below is the training and validation loss over epochs:</p>
-
-{% if image_path %}
-    <img src="{{ url_for('static', filename=image_path) }}" alt="Model Loss" class="img-fluid">
-{% else %}
-    <p>No loss graph available.</p>
-{% endif %}
-
+<h2>Training Result</h2>
+<p>{{ message }}</p>
+<img src="{{ url_for('static', filename='model_loss.png') }}" alt="Model Loss">
 {% endblock %}

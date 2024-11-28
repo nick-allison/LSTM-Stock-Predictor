@@ -2,16 +2,33 @@
 {% block content %}
 <h2>{{ title }}</h2>
 <p>{{ message }}</p>
-{% if results %}
+
+{% if 'Error' in results %}
+    <div class="alert alert-danger">
+        {{ results['Error'] }}
+    </div>
+{% else %}
+
+    <h3>Actual Prices</h3>
+    {% if image_path_actual %}
+        <img src="{{ url_for('static', filename=image_path_actual) }}" alt="Actual Price Graph">
+    {% endif %}
+    <h4>Evaluation Metrics:</h4>
     <ul>
-        <li>Mean Squared Error (MSE): {{ results.mse }}</li>
-        <li>Root Mean Squared Error (RMSE): {{ results.rmse }}</li>
-        <li>Mean Absolute Error (MAE): {{ results.mae }}</li>
-        <li>Direction Accuracy: {{ (results.direction_accuracy * 100) | round(2) }}%</li>
-        <li>Predicted Closing Price for {{ results.next_day }}: ${{ results.predicted_price | round(2) }}</li>
+        <li>Directional Accuracy: {{ results['Directional_Accuracy'] }}%</li>
+        <li>Predicted Closing Price for Tomorrow: ${{ results['Predicted_Close_Price_Tomorrow'] | round(2) }}</li>
     </ul>
-{% endif %}
-{% if image_path %}
-    <img src="{{ url_for('static', filename=image_path) }}" alt="Result Plot" class="img-fluid">
+
+    <h3>Normalized Prices</h3>
+    {% if image_path_normalized %}
+        <img src="{{ url_for('static', filename=image_path_normalized) }}" alt="Normalized Price Graph">
+    {% endif %}
+    <h4>Additional Evaluation Metrics:</h4>
+    <ul>
+        <li>Mean Squared Error (MSE): {{ results['MSE'] }}</li>
+        <li>Mean Absolute Error (MAE): {{ results['MAE'] }}</li>
+        <li>R2 Score: {{ results['R2_Score'] }}</li>
+    </ul>
+
 {% endif %}
 {% endblock %}

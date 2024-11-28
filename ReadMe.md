@@ -1,102 +1,93 @@
-# Stock Price Prediction with Sentiment Analysis
+<h1>Stock Price Prediction Using News Sentiment Analysis </h1>
 
-## Overview
-This project is a **web application** that predicts stock prices using **historical stock data** and **sentiment analysis** from news articles. It utilizes an **LSTM neural network** and provides an intuitive **web interface** for training and testing the model.
+![Stock Results](static/cover/readme_image.png)
 
----
+<h3>Overview</h3>
+This project aims to predict stock prices by doing sentiment analysis on news articles.  We train machine learning models to forecast stock price movements based on sentiment scores derived from news content.
 
-## Features
-- **Train Model:** Upload sentiment data in JSON format and train the LSTM model.
-- **Test Model:** Test the model on specific stock tickers, with an option to optimize the model for a particular stock.
-- **Image Gallery:** View generated images from the training process, including sentiment analysis and stock price trends.
-- **Loading Indicators:** Visual feedback during long-running operations like training and testing.
-- **Visualization:** Graphs showing training loss, predicted vs. actual stock prices, and sentiment analysis.
 
----
+<h3>Introduction</h3>
+Predicting stock prices is a complex task influenced by numerous factors, including market trends, economic indicators, and news events. News sentiment analysis provides valuable insights into the public and media perception of companies, which can significantly impact stock performance.
 
-## Requirements and Installation
+This project integrates news sentiment analysis with stock price prediction by:
 
-This project requires **Python 3.7 or higher**. Follow the steps below to set up and run the application:
+1. Collecting news articles related to specific stocks.
+2. Performing sentiment analysis on the news content.
+3. Combining sentiment scores with historical stock data.
+4. Training machine learning models to predict future stock prices.
 
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/stock-price-prediction.git
-    cd stock-price-prediction
-    ```
+<h3>Access the Application</h3>
 
-2. **Install Dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. Run app.py.
+2. Open your web browser and navigate to http://localhost:5000
 
-3. **Directory Structure**:
-    ```plaintext
-    your_project/
-    ├── app.py               # Main Flask application
-    ├── main.py              # Script to initialize and handle data processing
-    ├── model_functions.py   # LSTM model training and testing functions
-    ├── templates/           # HTML templates for the web app
-    │   ├── base.html
-    │   ├── index.html
-    │   ├── train.html
-    │   ├── test.html
-    │   ├── result.html
-    │   ├── train_result.html
-    │   └── gallery.html
-    ├── static/              # Static files for images, CSS, JS
-    │   └── generated/       # Folder for storing generated images
-    ├── models/              # Directory to save trained models and scalers
-    │   ├── lstm_model.h5
-    │   └── scaler.pkl
-    ├── data/                # Folder to store sentiment data in JSON
-    │   └── sample_data.json
-    ├── requirements.txt     # Dependencies for the project
-    └── README.md            # Project documentation
-    ```
+<h3>Using the Application</h3>
 
-4. **Start the Application**:
-    Run the Flask app:
-    ```bash
-    python app.py
-    ```
-    Access the application at [http://localhost:5000](http://localhost:5000).
+<h5>Train a Model:</h5> Navigate to the "Train Model" page, upload your dataset or choose to use the data in the 'data' folder, specify a model name to save the model, and start training.
+<h5>Test a Model:</h5> Go to the "Test Model" page, select a pre-trained model, upload test data or use default data, adjust the sequence length if necessary, and run the test.
+<h5>View Results:</h5> After testing, view graphs of predicted vs. actual stock prices and evaluation metrics.
 
-5. **Train the Model**:
-    - Navigate to **Train Model** in the web interface.
-    - Upload your sentiment JSON data files.
-    - Click **Start Training**.
-    - A loading indicator will appear during training.
-    - Upon completion, you will be redirected to a page displaying the training loss graph.
+<h3>Data</h3>
+<h5>All-the-News-2 Dataset</h5>
+We utilized the All-the-News-2 dataset, which contains millions of news articles from 2016 to 2020. This dataset provides a rich source of historical news data for model training.<br>
+https://components.one/datasets/all-the-news-2-news-articles-dataset
 
-6. **Test the Model**:
-    - Navigate to **Test Model** in the web interface.
-    - Enter the stock ticker symbol (e.g., `AAPL`).
-    - Optionally, check **Optimize Model for this Stock**.
-    - Click **Run Test**.
-    - A loading indicator will appear during testing.
-    - Results will display evaluation metrics and a plot of predicted vs. actual prices.
 
-7. **View Generated Images**:
-    - Navigate to **Image Gallery** to view images such as:
-        - **Article Counts**: Number of news articles per stock.
-        - **Price, News, and Sentiment**: Visualizations for each stock.
+<h5>NewsAPI.org Data</h5>
+To include more recent news articles, we fetched data from NewsAPI.org. This allowed us to enhance the model's ability to predict current stock price movements based on up-to-date news sentiment.<br>
+https://newsapi.org
 
----
+<h3>Pre-trained Models</h3>
+Several pre-trained models are included in this project:
 
-## Acknowledgements
-- **[Flask](https://flask.palletsprojects.com/):** For the web framework.
-- **[TensorFlow](https://www.tensorflow.org/):** For building the neural network.
-- **[yfinance](https://github.com/ranaroussi/yfinance):** For fetching stock data.
-- **[Matplotlib](https://matplotlib.org/) & [Seaborn](https://seaborn.pydata.org/):** For data visualization.
-- **[Bootstrap](https://getbootstrap.com/):** For styling the web interface.
+* all_model: Trained on 10 stocks from the All-the-News-2 dataset.
+* tech_5_model: Trained on 5 technology stocks from the same dataset.
+* Single Stock Models: Four models each trained on data from a single stock.
+* Recent News Model: Trained with newer data pulled from NewsAPI.org.
+These models can be used out-of-the-box to make predictions.
 
----
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your updates.
 
----
 
-## License
-This project is licensed under the **MIT License**. See the `LICENSE` file for details.
 
+
+<h3>Getting More Data</h3>
+Please use the tools provided in 'data preprocessing helpers' to gather and process more data.  The 'Data Preprocessing Tools' file in this folder contains info about each of the included tools.  Start with these:
+
+* get_news_api_data.py
+* get_csv_data.py
+
+<h3>Project Structure</h3>
+<strong>app.py:</strong> Main Flask application file handling routes and requests.<br>
+<strong>model_functions.py:</strong> Contains functions for data preparation, model training, and testing.<br>
+<strong>templates/:</strong> HTML templates for rendering web pages.<br>
+<strong>static/:</strong> Static files<br>
+<strong>data/:</strong> Directory containing datasets and test data files.<br>
+<strong>models/:</strong> Directory where trained models are saved.<br>
+<stong>data_preprocessing_helpers/:</strong> Tools for working with and preprocessing data.<br>
+<strong>requirements.txt:</strong> Lists all Python packages required to run the project.<br>
+
+<h3>Requirements</h3>
+Ensure you have the following Python packages installed:
+
+- Flask
+- numpy
+- pandas
+- yfinance
+- scikit-learn
+- tensorflow
+- along with
+- seaborn
+- newsapi-python
+- vaderSentiment
+<br><br>
+You can install these packages using the requirements.txt file
+
+<h3>Acknowledgements</h3>
+<h5>Datasets:</h5>
+All-the-News-2 Dataset
+NewsAPI.org
+<h5>Sentiment Analysis Tool:</h5>
+VADER Sentiment Analysis
+<h3>License</h3>
+This project is licensed under the MIT License. See the LICENSE file for details.

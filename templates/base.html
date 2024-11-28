@@ -3,13 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ title }}</title>
-    <!-- Include Bootstrap CSS for styling -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+        }
+
+        .navbar-brand, .nav-link {
+            color: #ffffff !important;
+        }
+
+        .nav-link:hover {
+            color: #d4d4d4 !important;
+        }
+
+        h1, h2, h3 {
+            color: #343a40;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }
+
+        .form-control, .form-check-label {
+            color: #343a40;
+        }
+
+        .alert-info {
+            background-color: #e2e3e5;
+            color: #41464b;
+            border-color: #d6d8db;
+        }
+
+        #loader {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="{{ url_for('index') }}">Stock Predictor</a>
-        <div class="collapse navbar-collapse">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            {% if not title == 'Home' %}
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('train') }}">Train Model</a>
@@ -17,12 +67,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url_for('test') }}">Test Model</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ url_for('gallery') }}">Image Gallery</a>
-                </li>
             </ul>
+            {% endif %}
         </div>
-    </nav>    
+    </nav>
+
     <div class="container mt-4">
         {% with messages = get_flashed_messages() %}
             {% if messages %}
@@ -35,5 +84,8 @@
         {% endwith %}
         {% block content %}{% endblock %}
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -1,25 +1,17 @@
-{% extends "base.html" %}
-{% block content %}
-<h2>{{ title }}</h2>
-
-<h3>Article Counts Image</h3>
-{% if article_counts_image %}
-    <img src="{{ url_for('static', filename=article_counts_image) }}" alt="Article Counts" class="img-fluid mb-4">
-{% else %}
-    <p>No article counts image available.</p>
-{% endif %}
-
 <h3>Price, News, and Sentiment Images</h3>
 {% if price_news_images %}
     <div class="row">
         {% for image in price_news_images %}
             <div class="col-md-6 mb-4">
-                <img src="{{ url_for('static', filename=image) }}" alt="{{ image }}" class="img-fluid">
+                <div class="card">
+                    <img src="{{ url_for('static', filename=image) }}" class="card-img-top" alt="{{ image }}">
+                    <div class="card-body">
+                        <p class="card-text">{{ image.replace('_price_news_sentiment_', ' ').replace('.png', '') }} Stock Price with News Articles and Sentiment</p>
+                    </div>
+                </div>
             </div>
         {% endfor %}
     </div>
 {% else %}
     <p>No price, news, and sentiment images available.</p>
 {% endif %}
-
-{% endblock %}

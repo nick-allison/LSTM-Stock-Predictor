@@ -1,19 +1,31 @@
 {% extends "base.html" %}
 {% block content %}
 <h2>Test the Model</h2>
-<form method="post" onsubmit="showLoader()">
+<form method="post" enctype="multipart/form-data" onsubmit="showLoader()">
     <div class="form-group">
         <label for="ticker">Ticker Symbol</label>
-        <input type="text" class="form-control" id="ticker" name="ticker" placeholder="e.g., TSLA" required>
+        <input type="text" class="form-control" id="ticker" name="ticker" placeholder="e.g., AAPL" required>
     </div>
-    <div class="form-group form-check">
-        <input type="checkbox" class="form-check-input" id="optimize" name="optimize">
-        <label class="form-check-label" for="optimize">Optimize Model for this Stock</label>
+    <div class="form-group">
+        <label for="model_filename">Select Model</label>
+        <select class="form-control" id="model_filename" name="model_filename" required>
+            {% for model in models %}
+                <option value="{{ model }}">{{ model }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="sequence_length">Sequence Length: <span id="sequence_value">60</span></label>
+        <input type="range" class="form-control-range" id="sequence_length" name="sequence_length" min="10" max="100" step="1" value="60" oninput="updateSequenceValue(this.value)">
+    </div>
+    <div class="form-group">
+        <label for="json_files">Upload JSON Data Files for Testing</label>
+        <input type="file" class="form-control-file" id="json_files" name="json_files" multiple>
+        <small class="form-text text-muted">If no files are uploaded, the default test data will be used.</small>
     </div>
     <button type="submit" class="btn btn-primary">Run Test</button>
 </form>
 
-<!-- Loader -->
 <div id="loader" style="display:none; margin-top:20px;">
     <p>Testing in progress. This may take several minutes...</p>
     <div class="spinner-border text-primary" role="status">
@@ -24,6 +36,10 @@
 <script>
 function showLoader() {
     document.getElementById('loader').style.display = 'block';
+}
+
+function updateSequenceValue(value) {
+    document.getElementById('sequence_value').innerText = value;
 }
 </script>
 {% endblock %}

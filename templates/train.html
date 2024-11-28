@@ -2,14 +2,23 @@
 {% block content %}
 <h2>Train the Model</h2>
 <form method="post" enctype="multipart/form-data" onsubmit="showLoader()">
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="use_existing_data" name="use_existing_data">
+        <label class="form-check-label" for="use_existing_data">Use existing data files on the server</label>
+    </div>
+    <div id="file_upload_section">
+        <div class="form-group">
+            <label for="json_files">Upload JSON Data Files</label>
+            <input type="file" class="form-control-file" id="json_files" name="json_files" multiple>
+        </div>
+    </div>
     <div class="form-group">
-        <label for="json_files">Upload JSON Data Files</label>
-        <input type="file" class="form-control-file" id="json_files" name="json_files" multiple required>
+        <label for="model_filename">Model Filename</label>
+        <input type="text" class="form-control" id="model_filename" name="model_filename" placeholder="Enter model filename (without extension)" required>
     </div>
     <button type="submit" class="btn btn-primary">Start Training</button>
 </form>
 
-<!-- Loader -->
 <div id="loader" style="display:none; margin-top:20px;">
     <p>Training in progress. This may take several minutes...</p>
     <div class="spinner-border text-primary" role="status">
@@ -21,5 +30,15 @@
 function showLoader() {
     document.getElementById('loader').style.display = 'block';
 }
+
+// Toggle file upload section based on checkbox
+document.getElementById('use_existing_data').addEventListener('change', function() {
+    var fileUploadSection = document.getElementById('file_upload_section');
+    if (this.checked) {
+        fileUploadSection.style.display = 'none';
+    } else {
+        fileUploadSection.style.display = 'block';
+    }
+});
 </script>
 {% endblock %}
