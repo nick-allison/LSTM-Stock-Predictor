@@ -241,7 +241,7 @@ def train_model(json_folder_path, model_save_path, sequence_length=60, batch_siz
 
     return model
 
-def test_model(ticker_symbol, json_folder_path, model_save_path, image_path_normalized=None, image_path_actual=None, sequence_length=60):
+def test_model(ticker_symbol, json_folder_path, model_save_path, image_path_normalized=None, image_path_actual=None, sequence_length=30):
     # Load sentiment data
     sentiment_df = load_sentiment_data(json_folder_path)
     if sentiment_df.empty:
